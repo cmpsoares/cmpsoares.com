@@ -1,0 +1,258 @@
+{{ define "main" }}
+
+{{"<!-- banner -->"| safeHTML}}
+{{ with .Params.banner }}
+{{ if .enable }}
+<section class="hero-area bg-cover" data-background="{{ .bg_image | absURL }}">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-lg-6 pl-lg-0 text-center text-lg-left">
+        <h1 class="text-white position-relative" data-aos="fade-up" data-aos-delay="1000">{{ .title }}<span class="watermark">{{ .watermark }}</span></h1>
+        <p class="text-white pt-2 pb-3" data-aos="fade-up" data-aos-delay="1200">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absURL  }}" class="btn btn-primary" data-aos="fade-up" data-aos-delay="1400">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-lg-5 pl-lg-0 pt-5 pt-lg-0 text-lg-right text-center">
+        <img src="{{ .image | absURL }}" class="img-fluid" alt="illustration" data-aos="zoom-in" data-aos-delay="1500">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- /banner -->"| safeHTML}}
+
+{{"<!-- partner -->"| safeHTML}}
+{{ with .Params.partner }}
+{{ if .enable }}
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="list-inline d-flex justify-content-between py-3 py-lg-5 border-bottom align-items-center">
+          {{ range .partner_logo }}
+          <li class="list-inline-item"><img class="img-fluid p-2" src="{{ . | absURL }}" alt="partner"></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- /partner -->"| safeHTML}}
+
+{{"<!-- feature -->"| safeHTML}}
+{{ with .Params.feature }}
+{{ if .enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p class="subtitle" data-aos="fade-up">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">{{ .title }}</h2>
+      </div>
+      {{ range $index, $element:= .feature_item }}
+      {{ $delay := mul $index 200 }}
+      <div class="col-lg-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="{{ $delay }}">
+        <div class="hover-bg-primary text-center position-relative px-4 py-5 rounded-lg shadow">
+          <img src="{{ .image | absURL }}" class="img-fluid" alt="feature-image">
+          <h5 class="pt-5 pb-3 card-title">{{ .title }}</h5>
+          <p class="mb-4">{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- feature -->"| safeHTML}}
+
+{{"<!-- about -->"| safeHTML}}
+{{ with .Params.about }}
+{{ if .enable }}
+{{ range $i,$p := .about_item }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row align-items-center">
+      {{ if not (modBool $i 2)}}
+      <div class="col-lg-6 col-md-5 text-center text-md-left mb-4 mb-md-0">
+        <img src="{{ .image | absURL}}" class="img-fluid" alt="about-image" data-aos="fade-right">
+      </div>
+      <div class="col-lg-6 col-md-7 text-center text-md-left">
+        <p class="subtitle" data-aos="fade-left">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-left" data-aos-delay="200">{{ .title }}</h2>
+        <p class="mb-4" data-aos="fade-left" data-aos-delay="300">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary" data-aos="fade-left" data-aos-delay="500">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ else }}
+      <div class="col-lg-6 col-md-7 text-center text-md-left order-md-1 order-2">
+        <p class="subtitle" data-aos="fade-right">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-right" data-aos-delay="200">{{ .title }}</h2>
+        <p class="mb-4" data-aos="fade-right" data-aos-delay="300">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary" data-aos="fade-right" data-aos-delay="500">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-lg-6 col-md-5 text-center text-md-left order-1 order-md-2 mb-4 mb-md-0">
+        <img src="{{ .image | absURL}}" class="img-fluid" alt="about-image" data-aos="fade-left">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+{{"<!-- about -->"| safeHTML}}
+
+{{"<!-- video -->"| safeHTML}}
+{{ with .Params.promo_video }}
+{{ if .enable }}
+<section class="section-lg pb-0 bg-cover" data-background="{{`images/background/check-video.png` | absURL }}">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 pr-lg-5 mb-md-0 mb-5">
+        <div class="mobile-height position-relative rounded-lg overlay-gradient"
+          data-background="{{ .video_thumbnail | absURL }}" data-aos="zoom-in">
+          <div class="pulse-container">
+            <div class="pulse-box">
+              <a class="venobox play-icon icon-center" data-autoplay="true" data-vbtype="video"
+                href="{{ .video_link | safeURL }}"><i class="fa fa-play text-secondary"></i></a>
+              <svg class="pulse-svg" width="90px" height="90px" viewBox="0 0 50 50" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <circle class="circle first-circle" fill="#fff" cx="25" cy="25" r="25"></circle>
+                <circle class="circle second-circle" fill="#fff" cx="25" cy="25" r="25"></circle>
+                <circle class="circle third-circle" fill="#fff" cx="25" cy="25" r="25"></circle>
+                <circle class="circle" fill="#fff" cx="25" cy="25" r="25"></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 px-4">
+        <p class="subtitle" data-aos="fade-up">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">{{ .title }}</h2>
+        <p class="mb-4" data-aos="fade-up" data-aos-delay="400">{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- video -->"| safeHTML}}
+
+{{"<!-- testimonial -->"| safeHTML}}
+{{ with .Params.testimonial }}
+{{ if .enable }}
+<section class="section bg-shape-triangles">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p class="subtitle" data-aos="fade-up">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">{{ .title }}</h2>
+      </div>
+    </div>
+    <div class="row testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+      {{ range .testimonial_item }}
+      <div class="col-lg-4">
+        <div class="card px-4 py-5 border-0 rounded-lg shadow text-center card-border-bottom mb-5 mt-3">
+          <i class="fa fa-quote-right icon-quote mb-4 mx-auto"></i>
+          <p class="mb-4">{{ .content | markdownify }}</p>
+          <h4>{{ .name }}</h4>
+          <span class="h6">{{ .designation }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- testimonial -->"| safeHTML}}
+
+{{"<!-- download part start -->"| safeHTML}}
+{{ with .Params.download }}
+{{ if .enable }}
+<section class="bg-triangles bg-gradient-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 text-center text-lg-left">
+        <div class="section">
+          <h2 class="section-title text-white" data-aos="fade-up">{{ .title }}</h2>
+          <p class="text-white mb-4" data-aos="fade-up" data-aos-delay="200">{{ .content | markdownify }}</p>
+          <ul class="list-inline">
+            <li class="list-inline-item mb-3 mb-lg-0">
+              {{ with .playstore }}
+              <a class="btn btn-white" href="{{ .link | safeURL }}" data-aos="zoom-in" data-aos-delay="400"><img src="{{`images/icon/google-play.png` | absURL }}" class="img-fluid mr-2" alt="">{{ .label }}</a>
+              {{ end }}
+            </li>
+            <li class="list-inline-item">
+              {{ with .appstore }}
+              <a class="btn btn-outline-white" href="{{ .link | safeURL }}" data-aos="zoom-in" data-aos-delay="500"><i class="fab fa-apple fa-2x mr-2" style="vertical-align:-8px"></i>{{ .label }}</a>
+              {{ end }}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 align-self-end">
+        <img src="{{ .image | absURL }}" class="img-fluid w-100" alt="mobile" data-aos="fade-left" data-aos-delay="600">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- download -->"| safeHTML}}
+
+{{"<!-- pricing -->"| safeHTML}}
+{{ with .Params.pricing }}
+{{ if .enable }}
+<section class="section section-lg-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        {{ with site.GetPage (string .section) }}
+        <p class="subtitle" data-aos="fade-up">{{ .Params.pricing.subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">{{ .Params.pricing.title }}</h2>
+        {{ end }}
+      </div>
+      
+      {{$show_items:= .show_items}}
+      {{ with site.GetPage (string .section) }}
+
+      {{ range $index, $element:= first ($show_items | default 3) .Params.pricing.pricing_table }}
+      {{ $delay := mul $index 200}}
+      <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4" data-aos="fade-up" data-aos-delay="{{$delay}}">
+        <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
+          <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">{{ .title }}</span>
+          <div class="h1 text-dark">{{ .price }}<span class="paragraph text-lowercase"> / {{ .unit }}</span></div>
+          <h5 class="mb-4 font-weight-normal text-color">{{ .description }}</h5>
+          <hr>
+          <ul class="list-unstyled my-4">
+            {{ range .services }}
+            <li class="my-3">{{ . }}</li>
+            {{ end }}
+          </ul>
+          <a href="{{ .link | safeURL }}" class="btn btn-outline-primary">Select Plan</a>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{"<!-- pricing -->"| safeHTML}}
+{{ end }}
+{{ end }}

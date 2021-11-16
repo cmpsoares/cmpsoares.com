@@ -1,0 +1,25 @@
+################################### English language #####################################
+[en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# footer content
+footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit."
+# copyright
+copyright = "&copy; 2020 - 2021 C.M.P.SOARES, LDA. | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
+
+
+
+################################### French language #####################################
+[fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
+# footer content
+footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit."
+# copyright
+copyright = "&copy; 2020 - 2021 C.M.P.SOARES, LDA. | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr)"

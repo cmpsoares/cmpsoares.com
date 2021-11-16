@@ -1,0 +1,47 @@
+// Color Variables
+{{ with site.Params.variables }}
+$primary-color: {{.primary_color}};
+$secondary-color: {{.secondary_color}};
+$bg-secondary: {{.bg_secondary}};
+
+$text-dark: {{.text_dark}};
+$text-light: {{.text_light}};
+$text-color: {{.text_color}};
+$border-color: {{.border_color}};
+
+$bg-gradient-primary: {{.bg_gradient_primary}};
+$bg-gradient-secondary: {{.bg_gradient_secondary}};
+$btn-gradient-primary: {{.btn_gradient_primary}};
+
+$black: {{.black}};
+$white: {{.white}};
+$gray: {{.gray}};
+
+// Font Variables
+$primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font }}', {{.primary_font_type}};
+$secondary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .secondary_font }}', {{.secondary_font_type}};
+$icon-font: '{{.icon_font}}';
+{{ end }}
+
+
+@import 'mixins';
+
+@import 'typography';
+
+@import 'buttons';
+
+@import 'common';
+
+@import 'templates/navigation';
+
+@import 'templates/banner';
+
+@import 'templates/homepage';
+
+@import 'templates/card';
+
+@import 'templates/team';
+
+@import 'templates/blog';
+
+@import 'templates/footer';

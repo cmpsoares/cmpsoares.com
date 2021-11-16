@@ -1,0 +1,68 @@
+# This file is for render site varibles and plugins
+# don't remove this file.
+# The presence of this file is for compatibility with Blogdown and Forestry.
+#
+# The actual configuration files are stored in the `config/_default/` folder.
+
+
+######################### site variables ##############################
+# site variables
+[params.variables]
+primary_color = "#007ac7"
+secondary_color = "#00e0d8"
+bg_secondary = "#15192b"
+text_dark = "#242f3e"
+text_color = "#8b8e93"
+text_light = "#d4dae3"
+text_color_light = "#959595"
+border_color = "#2d3041"
+bg_gradient_primary = "linear-gradient(134deg, #00a4db 0%, #00269e 100%)"
+bg_gradient_secondary = "linear-gradient( 80deg, rgb(0,48,204) 0%, rgb(0,164,219) 100%)"
+btn_gradient_primary = "linear-gradient(45deg, rgb(0, 168, 244) 0%, rgb(2, 209, 161) 100%)"
+black = "#000"
+white = "#fff"
+gray = "#8b8e93"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "Poppins:wght@300;400;500;600;700"
+primary_font_type = "sans-serif" # [serif/sans-serif]
+secondary_font = "Open Sans:wght@300;400;600;700;800"
+secondary_font_type = "sans-serif" # [serif/sans-serif]
+icon_font = "Font Awesome 5 Free"
+
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/aos/aos.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/aos/aos.js"

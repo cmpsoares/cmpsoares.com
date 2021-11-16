@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+  {{- partial "preloader.html" . -}}
+
+  <div class="naviagtion fixed-top transition bg-gradient-secondary py-3">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand p-0 mb-4" href="{{ .Site.BaseURL | relLangURL }}"><img height="50"
+            src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars text-white h3 mb-0"></i>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white text-capitalize"
+                href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home }}</a>
+            </li>
+            {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white text-capitalize dropdown-toggle" href="#" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ .Name }}
+              </a>
+              <div class="dropdown-menu">
+                {{ range .Children }}
+                <a class="dropdown-item text-color" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </li>
+            {{ else }}
+            <li class="nav-item">
+              <a class="nav-link text-white text-capitalize" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+
+          <!-- Language List -->
+          {{ if .IsTranslated }}
+          <select id="select-language" onchange="location = this.value;">
+            {{ $siteLanguages := .Site.Languages}}
+            {{ $pageLang := .Page.Lang}}
+            {{ range .Page.AllTranslations }}
+            {{ $translation := .}}
+            {{ range $siteLanguages }}
+            {{ if eq $translation.Lang .Lang }}
+            {{ $selected := false }}
+            {{ if eq $pageLang .Lang}}
+            <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+            </option>
+            {{ else }}
+            <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </select>
+          {{ end }}
+
+          {{ if .Site.Params.navigation_button.enable }}
+          {{ "<!-- get start btn -->" | safeHTML }}
+          <a href="{{ .Site.Params.navigation_button.link | absURL }}"
+            class="btn btn-outline-primary text-white ml-lg-3">{{ .Site.Params.navigation_button.label }}</a>
+          {{ end }}
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <section class="section pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <img src="{{`images/404.png` | absURL }}" alt="404" class="img-fluid mb-4">
+          <h2>{{i18n "404_title"}}</h2>
+          <p class="mb-4">{{i18n "404_content"}}</p>
+          <a href="{{site.BaseURL | relLangURL }}" class="btn btn-primary">{{i18n "back2home"}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-secondary">
+    <section class="section border-bottom border-color">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-5 mb-4 mb-md-0">
+            <a href="{{ .Site.BaseURL | relLangURL }}"><img src="{{ .Site.Params.logo | absURL }}" class="mb-4"
+                alt="{{ .Site.Title }}"></a>
+            <p class="text-light mb-4">{{ .Site.Params.footer_content | markdownify }}</p>
+            <ul class="list-inline social-icons">
+              {{ range .Site.Params.social }}
+              <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4 class="text-white mb-4">{{ i18n "quick_links" }}</h4>
+            <ul class="list-styled list-hover-underline">
+              {{ range .Site.Menus.footer }}
+              <li class="mb-3 text-light"><a href="{{ .URL | relLangURL }}" class="text-light">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <h4 class="text-white mb-4">{{ i18n "contact_info"}}</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3 text-light">{{.Site.Params.address | safeHTML }}</li>
+              <li class="mb-3 text-light">{{.Site.Params.mobile | safeHTML }}</li>
+              <li class="mb-3 text-light">{{.Site.Params.email | safeHTML }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{"  <!-- footer part end -->" | safeHTML }}
+
+    {{"  <!-- copyright part start -->" | safeHTML }}
+    <section class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="mb-0 text-light">{{ .Site.Params.copyright | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{"  <!-- copyright part end -->" | safeHTML }}
+  </footer>
+
+
+  {{ "<!-- JS Plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.js}}
+  <script src="{{ .link | absURL }}"></script>
+  {{ end }}
+  
+  {{ "<!-- Main Script -->" | safeHTML }}
+  {{ $script := resources.Get "js/script.js" | minify}}
+  <script src="{{ $script.Permalink }}"></script>
+
+</body>
+
+</html>

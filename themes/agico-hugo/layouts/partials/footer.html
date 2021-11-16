@@ -1,0 +1,52 @@
+{{"<!-- footer part start -->" | safeHTML }}
+<footer class="bg-secondary pt-5">
+  <section class="section border-bottom border-color">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-5 mb-4 mb-md-0">
+          <a href="{{ .Site.BaseURL | relLangURL }}"><img src="{{ .Site.Params.logo | absURL }}" class="mb-4" alt="{{ .Site.Title }}"></a>
+          <p class="text-light mb-4">{{ .Site.Params.footer_content | markdownify }}</p>
+          <ul class="list-inline social-icons">
+            {{ range .Site.Params.social }}
+            <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h4 class="text-white mb-4">{{ i18n "quick_links" }}</h4>
+          <ul class="list-styled list-hover-underline">
+            {{ range .Site.Menus.footer }}
+            <li class="mb-3 text-light"><a href="{{ .URL | relLangURL }}" class="text-light">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h4 class="text-white mb-4">{{ i18n "contact_info"}}</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3 text-light">{{.Site.Params.address | safeHTML }}</li>
+            <li class="mb-3 text-light">{{.Site.Params.mobile | safeHTML }}</li>
+            <li class="mb-3 text-light">{{.Site.Params.email | safeHTML }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{"  <!-- footer part end -->" | safeHTML }}
+
+  {{"  <!-- copyright part start -->" | safeHTML }}
+  <section class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-0 text-light copyright">{{ site.Params.copyright | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{"  <!-- copyright part end -->" | safeHTML }}
+</footer>
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ with .Site.Params.map.gmap_api }}
+<script src="{{ . | safeURL }}"></script>
+{{ end }}
