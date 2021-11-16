@@ -3,18 +3,19 @@
 banner:
   enable : true
   bg_image : "images/background/banner.png"
-  title : "Build Your Business Together"
-  watermark : "Build"
-  content : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+  title : "Automating Your Business Together"
+  watermark : "CMPSOARES"
+  content : "We are IT professionals that assist companies through their journey of Digital Transformation.<br>We will help you Automate your Business and Digital Presence."
   image : "images/banner/banner-1.png"
   button:
     enable : true
-    label : "Get Agico"
-    link : "#"
+    label : "Contact Us"
+    link : "contact"
 
 ############################## Partners #################################
 partner:
   enable : true
+  title: "partners"
   partner_logo:
   - "images/partner/client-logo-1.png"
   - "images/partner/client-logo-2.png"
@@ -25,7 +26,7 @@ partner:
 ################################ Features ###############################
 feature:
   enable : true
-  subtitle : "fetures"
+  subtitle : "features"
   title : "exclusive features"
   feature_item:
     # feature item loop
