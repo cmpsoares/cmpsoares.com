@@ -8,17 +8,17 @@ description = "This is meta description"
 author = "Themefisher"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
-mobile = "+211234565523"
-email = "info@agico.com"
+# address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
+mobile = "+351 969571027"
+email = "contact@cmpsoares.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/mrgrnyzq" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "Your ID"
 # main sections
 mainSections = ["blog"]
 # search
-search = false
+search = true
 # custom script on header
 custom_script= ""
 
