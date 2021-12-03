@@ -4,8 +4,8 @@ favicon = "images/favicon.ico"
 # logo
 logo = "images/logo.png"
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
-author = "Themefisher"
+description = "CMPSoares Lda. is an IT Consulting Company specialized in assisting Company with their Digital and Automation needs and helping them to build a strong Digital Presence."
+author = "CMPSoares, Lda."
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
 # address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
@@ -30,13 +30,13 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "sign up"
 link = "#"
 
 # Subscription
 [subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -48,7 +48,7 @@ gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
-map_marker_label = "Agico"
+map_marker_label = "CMPSoares, Lda."
 map_zoom = 17
 
 # cookies
