@@ -34,14 +34,28 @@
       <div class="col-lg-12 text-center">
         <p class="subtitle" data-aos="fade-down">{{ .subtitle }}</p>
         <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">{{ .title }}</h2>
-        <ul class="list-inline d-flex justify-content-between py-3 py-lg-5 border-bottom align-items-center" >
+        <ul class="list-inline d-flex justify-content-between align-items-center" >
           {{ range $index, $element:= .partner_logo }}
           {{ $delay := mul $index 200 }}
+          {{ if eq .line 1 }}
           <li class="list-inline-item">
             <a href="{{ .partner_url | absURL }}" target="_blank">
               <img class="img-fluid p-2" src="{{ .logo_image | absURL }}" alt="partner" data-aos="fade-down" data-aos-delay="{{ $delay }}">
             </a>
           </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <ul class="list-inline d-flex justify-content-between py-3 py-lg-10 border-bottom align-items-center" >
+          {{ range $index, $element:= .partner_logo }}
+          {{ $delay := mul $index 200 }}
+          {{ if eq .line 2 }}
+          <li class="list-inline-item">
+            <a href="{{ .partner_url | absURL }}" target="_blank">
+              <img class="img-fluid p-2" src="{{ .logo_image | absURL }}" alt="partner" data-aos="fade-down" data-aos-delay="{{ $delay }}">
+            </a>
+          </li>
+          {{ end }}
           {{ end }}
         </ul>
       </div>
@@ -132,14 +146,40 @@
       <div class="col-lg-12 text-center">
         <p class="subtitle" data-aos="fade-down">{{ .subtitle }}</p>
         <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">{{ .title }}</h2>
-        <ul class="list-inline d-flex justify-content-between py-3 py-lg-5 border-bottom align-items-center" >
+        <ul class="list-inline d-flex justify-content-between align-items-center" >
           {{ range $index, $element:= .technology_logo }}
           {{ $delay := mul $index 200 }}
+          {{ if eq .line 1 }}
           <li class="list-inline-item">
             <a href="{{ .technology_url | absURL }}" target="_blank">
               <img class="img-fluid p-2" src="{{ .logo_image | absURL }}" alt="partner" data-aos="fade-down" data-aos-delay="{{ $delay }}">
             </a>
           </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <ul class="list-inline d-flex justify-content-between align-items-center" >
+          {{ range $index, $element:= .technology_logo }}
+          {{ $delay := mul $index 200 }}
+          {{ if eq .line 2 }}
+          <li class="list-inline-item">
+            <a href="{{ .technology_url | absURL }}" target="_blank">
+              <img class="img-fluid p-2" src="{{ .logo_image | absURL }}" alt="partner" data-aos="fade-down" data-aos-delay="{{ $delay }}">
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <ul class="list-inline d-flex justify-content-between border-bottom align-items-center" >
+          {{ range $index, $element:= .technology_logo }}
+          {{ $delay := mul $index 200 }}
+          {{ if eq .line 3 }}
+          <li class="list-inline-item">
+            <a href="{{ .technology_url | absURL }}" target="_blank">
+              <img class="img-fluid p-2" src="{{ .logo_image | absURL }}" alt="partner" data-aos="fade-down" data-aos-delay="{{ $delay }}">
+            </a>
+          </li>
+          {{ end }}
           {{ end }}
         </ul>
       </div>

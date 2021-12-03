@@ -20,24 +20,34 @@ partner:
   partner_logo:
   - logo_image: "images/partner/amazon-web-services-logo-colour.png"
     partner_url: "https://aws.amazon.com/"
+    line: 1
   - logo_image: "images/partner/slack-logo-colour.png"
     partner_url: "https://slack.com/"
+    line: 1
   - logo_image: "images/partner/zapier-logo-colour.png"
     partner_url: "https://zapier.com/"
+    line: 1
   - logo_image: "images/partner/microsoft-azure-logo-colour.png"
     partner_url: "https://azure.microsoft.com/"
+    line: 1
   - logo_image: "images/partner/elastic-logo-colour.png"
     partner_url: "https://www.elastic.co/"
+    line: 1
   - logo_image: "images/partner/google-cloud-platform-logo-colour.png"
     partner_url: "https://cloud.google.com/"
+    line: 2
   - logo_image: "images/partner/shopify-logo-colour.png"
     partner_url: "https://www.shopify.com/"
+    line: 2
   - logo_image: "images/partner/netlify-logo-colour.png"
     partner_url: "https://www.netlify.com/"
+    line: 2
   - logo_image: "images/partner/github-logo-colour.png"
     partner_url: "https://github.com/"
+    line: 2
   - logo_image: "images/partner/findmore-consulting-logo-colour_x100.png"
     partner_url: "https://www.findmore.pt/"
+    line: 2
 
 ################################ Features ###############################
 feature:
@@ -66,7 +76,7 @@ about:
   about_item:
     # about item loop
     - image : "images/about/about-1.png"
-      subtitle : "about agico"
+      subtitle : "our services"
       title : "Eausmod tempor magna nostrud exercitation"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
@@ -78,7 +88,7 @@ about:
         
     # about item loop
     - image : "images/about/about-2.png"
-      subtitle : "about agico"
+      subtitle : "about CMPSoares"
       title : "Rehenderit volupate velit proident sunt culpa"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
@@ -92,34 +102,47 @@ about:
 technology:
   enable: true
   subtitle: "technology"
-  title: "We deliver solutions with state of the art technology"
+  title: "We deliver solutions with some of the latest technologies"
   technology_logo:
   - logo_image: "images/technology/ansible-logo-colour.png"
     technology_url: "https://www.ansible.com/"
+    line: 1
   - logo_image: "images/technology/hashicorp-terraform-logo-colour.png"
     technology_url: "https://www.terraform.io/"
+    line: 1
   - logo_image: "images/technology/docker-logo-colour.png"
     technology_url: "https://www.docker.com/"
+    line: 1
   - logo_image: "images/technology/kubernetes-logo-colour.png"
     technology_url: "https://kubernetes.io/"
-  - logo_image: "images/technology/go-language-logo-colour-png.png"
-    technology_url: "https://golang.org/"
-  - logo_image: "images/technology/nodejs-logo-colour.png"
-    technology_url: "https://nodejs.org/"
-  - logo_image: "images/technology/hugo-logo-colour.png"
-    technology_url: "https://gohugo.io/"
-  - logo_image: "images/technology/dart-programming-language-logo-colour.png"
-    technology_url: "https://dart.dev/"
-  - logo_image: "images/technology/google-flutter-logo-colour.png"
-    technology_url: "https://flutter.dev/"
-  - logo_image: "images/technology/python-logo-colour.png"
-    technology_url: "https://www.python.org/"
+    line: 1
   - logo_image: "images/technology/jenkins-logo-colour.png"
     technology_url: "https://www.jenkins.io/"
+    line: 1
+  - logo_image: "images/technology/go-language-logo-colour-png.png"
+    technology_url: "https://golang.org/"
+    line: 2
+  - logo_image: "images/technology/nodejs-logo-colour.png"
+    technology_url: "https://nodejs.org/"
+    line: 2
+  - logo_image: "images/technology/dart-programming-language-logo-colour.png"
+    technology_url: "https://dart.dev/"
+    line: 2
+  - logo_image: "images/technology/google-flutter-logo-colour.png"
+    technology_url: "https://flutter.dev/"
+    line: 2
+  - logo_image: "images/technology/python-logo-colour.png"
+    technology_url: "https://www.python.org/"
+    line: 2
+  - logo_image: "images/technology/hugo-logo-colour.png"
+    technology_url: "https://gohugo.io/"
+    line: 3
   - logo_image: "images/technology/wordpress-logo-colour.png"
     technology_url: "https://wordpress.com/"
+    line: 3
   - logo_image: "images/technology/woocommerce-logo-colour.png"
     technology_url: "https://woocommerce.com/"
+    line: 3
 
 ############################ video ###############################
 promo_video:
