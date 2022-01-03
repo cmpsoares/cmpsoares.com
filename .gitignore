@@ -17,3 +17,6 @@ backup-materials/
 
 # Mac-specific files
 .DS_Store
+
+# Lock files
+.hugo_build.lock
