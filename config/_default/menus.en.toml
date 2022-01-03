@@ -45,10 +45,10 @@ hasChildren = true
   name = "FAQ"
   URL = "faq"
   
-  [[main]]
-  parent = "Pages"
-  name = "Changelog"
-  URL = "changelog"
+  # [[main]]
+  # parent = "Pages"
+  # name = "Changelog"
+  # URL = "changelog"
 
 #Footer menu
 [[footer]]
