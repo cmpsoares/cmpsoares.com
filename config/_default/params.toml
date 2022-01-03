@@ -9,7 +9,7 @@ author = "CMPSoares, Lda."
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
 # address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
-mobile = "+351 969571027"
+mobile = "+44 20 8638 8170"
 email = "contact@cmpsoares.com"
 # contact form action
 contact_form_action = "https://formspree.io/f/mrgrnyzq" # contact form works with https://formspree.io
@@ -26,27 +26,27 @@ custom_script= ""
 # Preloader
 [preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "images/Horizontal BLUE ICON.svg" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "sign up"
-link = "#"
+enable = true
+label = "Contact Us"
+link = "/contact"
 
 # Subscription
 [subscription]
-enable = false
+enable = true
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_action = "https://cmpsoares.us4.list-manage.com/subscribe/post?u=a37f9f4e15985d7754bad97ba&amp;id=284d8c24ca" # replace this url with yours
+mailchimp_form_name = "b_a37f9f4e15985d7754bad97ba_284d8c24ca" # replace this code with yours
 
 # google map
 [gmap]
 enable = true
-gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+gmap_api = "AIzaSyCYvuegtMCWiaZU4xIyZeFbXUVw7woGH6E"
+map_latitude = "38.769248259734226"
+map_longitude = "-9.094876311500547"
 map_marker = "images/marker.png"
 map_marker_label = "CMPSoares, Lda."
 map_zoom = 17
@@ -62,24 +62,24 @@ button = "I Accept"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.facebook.com/cmpsoares"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://twitter.com/cmpsoares"
 
 [[social]]
 title = "instagram"
 icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.instagram.com/cmpsoares.lda/"
 
 [[social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://github.com/cmpsoares"
 
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin-in" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.linkedin.com/company/cmpsoares"
