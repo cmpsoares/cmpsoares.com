@@ -119,7 +119,7 @@ technology:
   - logo_image: "images/technology/jenkins-logo-colour.png"
     technology_url: "https://www.jenkins.io/"
     line: 1
-  - logo_image: "images/technology/go-language-logo-colour-png.png"
+  - logo_image: "images/technology/go-language-logo-colour.png"
     technology_url: "https://golang.org/"
     line: 2
   - logo_image: "images/technology/nodejs-logo-colour.png"
