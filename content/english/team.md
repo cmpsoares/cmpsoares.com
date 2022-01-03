@@ -1,97 +1,29 @@
 ---
-title: "Our Team"
+title: "Our Management Team"
 # watermark text
 watermark: "Team"
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+# description : "Our team is ."
 
 layout: "team"
 draft: false
 
 team_member:
 # team member
-- name : "Justine Marshall"
-  image : "images/team/team-member-1.jpg"
-  designation : "Designer"
+- name : "Carlos Manuel Soares"
+  image : "images/team/001-Carlos-Manuel-Soares.jpg"
+  designation : "Founder and CEO"
   social:
-  - icon : "fab fa-facebook"
-    link : "#"
-  - icon : "fab fa-twitter"
-    link : "#"
   - icon : "fab fa-linkedin"
-    link : "#"
-  - icon : "fab fa-pinterest-p"
-    link : "#"
-    
-# team member
-- name : "Liam Hughes"
-  image : "images/team/team-member-2.jpg"
-  designation : "Developer"
-  social:
-  - icon : "fab fa-facebook"
-    link : "#"
+    link : "https://www.linkedin.com/in/cmpsoares/"
+  - icon : "fab fa-github"
+    link : "#https://github.com/cmpsoares91"
   - icon : "fab fa-twitter"
-    link : "#"
-  - icon : "fab fa-linkedin"
-    link : "#"
-  - icon : "fab fa-pinterest-p"
-    link : "#"
-    
-# team member
-- name : "Neil Roberts"
-  image : "images/team/team-member-3.jpg"
-  designation : "Marketer"
-  social:
-  - icon : "fab fa-facebook"
-    link : "#"
-  - icon : "fab fa-twitter"
-    link : "#"
-  - icon : "fab fa-linkedin"
-    link : "#"
-  - icon : "fab fa-pinterest-p"
-    link : "#"
-    
-# team member
-- name : "Justine Marshall"
-  image : "images/team/team-member-4.jpg"
-  designation : "Designer"
-  social:
-  - icon : "fab fa-facebook"
-    link : "#"
-  - icon : "fab fa-twitter"
-    link : "#"
-  - icon : "fab fa-linkedin"
-    link : "#"
-  - icon : "fab fa-pinterest-p"
-    link : "#"
-    
-# team member
-- name : "Liam Hughes"
-  image : "images/team/team-member-5.jpg"
-  designation : "Developer"
-  social:
-  - icon : "fab fa-facebook"
-    link : "#"
-  - icon : "fab fa-twitter"
-    link : "#"
-  - icon : "fab fa-linkedin"
-    link : "#"
-  - icon : "fab fa-pinterest-p"
-    link : "#"
-    
-# team member
-- name : "Neil Roberts"
-  image : "images/team/team-member-6.jpg"
-  designation : "Marketer"
-  social:
-  - icon : "fab fa-facebook"
-    link : "#"
-  - icon : "fab fa-twitter"
-    link : "#"
-  - icon : "fab fa-linkedin"
-    link : "#"
-  - icon : "fab fa-pinterest-p"
-    link : "#"
+    link : "http://www.twitter.com/cmpsoares"
+  - icon : "fab fa-skype"
+    link : "skype:cmps91?chat"
+  - icon : "fa fa-envelope"
+    link : "mailto:carlos@cmpsoares.com"
 ---
