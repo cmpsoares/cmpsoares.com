@@ -49,7 +49,7 @@ gmap_latitude = "38.769248259734226"
 gmap_longitude = "-9.094876311500547"
 gmap_marker = "images/marker.png"
 gmap_marker_label = "CMPSoares, Lda."
-gmap_zoom = 7
+gmap_zoom = 10
 
 # cookies
 [cookies]
