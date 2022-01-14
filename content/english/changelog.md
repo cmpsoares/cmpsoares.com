@@ -6,7 +6,7 @@ draft: false
 
 ### 2022 Updates
 
-**Jan 3, 2022**
+**Jan 14, 2022**
 
 Creating the first full version of the website using Hugo and the Agico Template."
 

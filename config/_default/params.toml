@@ -45,11 +45,11 @@ mailchimp_form_name = "b_a37f9f4e15985d7754bad97ba_284d8c24ca" # replace this co
 [gmap]
 enable = true
 gmap_api = "AIzaSyCYvuegtMCWiaZU4xIyZeFbXUVw7woGH6E"
-map_latitude = "38.769248259734226"
-map_longitude = "-9.094876311500547"
-map_marker = "images/marker.png"
-map_marker_label = "CMPSoares, Lda."
-map_zoom = 17
+gmap_latitude = "38.769248259734226"
+gmap_longitude = "-9.094876311500547"
+gmap_marker = "images/marker.png"
+gmap_marker_label = "CMPSoares, Lda."
+gmap_zoom = 17
 
 # cookies
 [cookies]
