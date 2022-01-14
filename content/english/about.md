@@ -18,7 +18,7 @@ about:
   # video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
   subtitle : "About CMPSOARES"
   title : "Focusing on bringing innovation to everyone"
-  content : "Founded in 2020, CMPSOARES is a Portuguese-based software house and consulting company dedicated to assisting companies with technological challenges.<br><br>Developing services, digitally transforming the business, and helping migrate to the cloud, renew legacy applications and train professionals in achieving the latest practices in productivity, DevOps, distributed systems and cloud software."
+  content : "Founded in 2020, CMPSOARES is a Portuguese-based software house and consulting company dedicated to assisting companies with technological challenges.<br><br>We develop services, digitally transforming the business, and helping migrate to the cloud, renew legacy applications and train professionals in achieving the latest practices in productivity, DevOps, distributed systems and cloud software."
   button:
     enable : true
     label : "Contact Us"

@@ -77,10 +77,8 @@ about:
     # about item loop
     - image : "images/about/about-1.png"
       subtitle : "our services"
-      title : "Eausmod tempor magna nostrud exercitation"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
-              exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
+      title : "Flexible solutions for your Business"
+      content : "We are professionals with years of experience in Software & Application Development, Process Automation, Cloud and On-Prem Infrastructure Orchestration, Site Reliability and DevOps Practices.<br><br>We can assist you and your team with your solution design and development needs."
       button:
         enable : true
         label : "read more"
@@ -89,10 +87,8 @@ about:
     # about item loop
     - image : "images/about/about-2.png"
       subtitle : "about CMPSoares"
-      title : "Reaching "
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
-              exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
+      title : "Who we are"
+      content : "We develop services, digitally transforming the business, and helping migrate to the cloud, renew legacy applications and train professionals in achieving the latest practices in productivity, DevOps, distributed systems and cloud software."
       button:
         enable : true
         label : "read more"
