@@ -5,7 +5,7 @@ watermark: "About"
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+description : "CMPSOARES was founded with the vision to bring innovation and the latest technologies to everyone."
 
 layout : "about"
 draft : false
@@ -15,10 +15,10 @@ about:
   enable : true
   video_bg_image : "images/about/about-3.jpg"
   video_thumbnail : "images/about/about-4.jpg"
-  video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
-  subtitle : "About Agico"
-  title : "Eausmod tempor magna nostrud exercitation"
-  content : "Lorem ipsum dolor sit amet consectetur adipicing elit sed do usmod tempor incididunt.enim ad minim veniam, quis nostrud exer citation ulla mco laboris nisi ut aliquip commodo. <br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium doloreque laudantum."
+  # video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
+  subtitle : "About CMPSOARES"
+  title : "Focusing on bringing innovation to everyone"
+  content : "Founded in 2020, CMPSOARES is a Portuguese-based software house and consulting company dedicated to assisting companies with technological challenges.<br><br>We develop services, digitally transforming the business, and helping migrate to the cloud, renew legacy applications and train professionals in achieving the latest practices in productivity, DevOps, distributed systems and cloud software."
   button:
     enable : true
     label : "Contact Us"
@@ -26,7 +26,7 @@ about:
 
 ############################### counter #############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
   # funfact item loop
   - name : "Downloads per day"
