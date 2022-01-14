@@ -16,7 +16,7 @@ banner:
 partner:
   enable: true
   subtitle: "partners"
-  title: "We work with the major tech brands"
+  title: "We work with some of the major tech brands"
   partner_logo:
   - logo_image: "images/partner/amazon-web-services-logo-colour.png"
     partner_url: "https://aws.amazon.com/"
