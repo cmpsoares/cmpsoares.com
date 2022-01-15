@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+{{"<!-- about agico -->" | safeHTML }}
+{{ with .Params.about }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 pr-lg-4 mb-4 mb-md-0">
+        <div class="position-relative" data-aos="fade-right">
+          <img src="{{ .video_bg_image | absURL }}" class="img-fluid rounded-sm" alt="videoThumbBg">
+          {{ if and .video_thumbnail }}
+          <div class="floating-video {{ if .video_link }}overlay{{end}} rounded-sm">
+            <img src="{{ .video_thumbnail | absURL }}" class="img-fluid rounded-sm" alt="video-thumb">
+            {{ if .video_link }}
+            <a class="venobox play-icon icon-center" data-autoplay="true" data-vbtype="video"
+              href="{{ .video_link }}">
+              <i class="fa fa-play text-secondary bg-white rounded-circle"></i>
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-md-6 align-self-center pl-lg-4">
+        <p class="subtitle" data-aos="fade-up">{{ .subtitle }}</p>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">{{ .title }}</h2>
+        <p data-aos="fade-up" data-aos-delay="400">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a class="btn btn-primary" href="{{ .link | absLangURL }}" data-aos="fade-up" data-aos-delay="600">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- about agico -->" | safeHTML }}
+
+{{"<!-- counter -->" | safeHTML }}
+{{ with .Params.funfacts }}
+{{ if .enable }}
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      {{ range .funfact_item }}
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0 text-center">
+        <p class="h2 font-weight-light text-dark"><span class="counter" data-count="{{ .count }}">0</span>+</p>
+        <h6 class="text-dark font-weight-normal">{{ .name }}</h6>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{"<!-- counter -->" | safeHTML }}
+
+{{ if .Params.service.enable }}
+{{ with site.GetPage (string .Params.service.section)}}
+{{ partial "services.html" . }}
+<div class="section pt-0"></div>
+{{ end }}
+{{else}}
+<div class="section-lg-bottom"></div>
+{{ end }}
+
+{{ end }}
