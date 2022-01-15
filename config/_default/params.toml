@@ -41,7 +41,14 @@ enable = true
 mailchimp_form_action = "https://cmpsoares.us4.list-manage.com/subscribe/post?u=a37f9f4e15985d7754bad97ba&amp;id=284d8c24ca" # replace this url with yours
 mailchimp_form_name = "b_a37f9f4e15985d7754bad97ba_284d8c24ca" # replace this code with yours
 
-# google map
+# Google Services
+# Google Adsense
+[google_adsense]
+enable = false
+client = "ca-pub-9080200840721283"
+inArticleSlot = "9080200840721283"
+
+# google maps
 [gmap]
 enable = true
 gmap_api = "AIzaSyCYvuegtMCWiaZU4xIyZeFbXUVw7woGH6E"
@@ -52,9 +59,9 @@ gmap_marker_label = "CMPSoares, Lda."
 gmap_zoom = 10
 
 # google tag manager
-[gtagmanager]
+[google_tagmanager]
 enable = true
-gtagmanager_id = "GTM-WHLHKSH"
+tagmanager_id = "GTM-WHLHKSH"
 
 # cookies
 [cookies]
