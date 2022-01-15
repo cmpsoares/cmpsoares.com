@@ -51,6 +51,11 @@ gmap_marker = "images/marker.png"
 gmap_marker_label = "CMPSoares, Lda."
 gmap_zoom = 10
 
+# google tag manager
+[gtagmanager]
+enable = true
+gtagmanager_id = "GTM-WHLHKSH"
+
 # cookies
 [cookies]
 enable = true
