@@ -10,6 +10,8 @@ image = "images/logo.png" # this image will be used as fallback if a page has no
 # contact info
 # address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
 mobile = "+44 20 8638 8170"
+whatsapp = "442086388170"
+whatsapp_label = "+44 20 8638 8170"
 email = "contact@cmpsoares.com"
 # contact form action
 contact_form_action = "https://formspree.io/f/mrgrnyzq" # contact form works with https://formspree.io
