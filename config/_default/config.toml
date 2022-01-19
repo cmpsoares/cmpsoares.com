@@ -13,8 +13,17 @@ disqusShortname = "cmpsoares-com" # get your shortname form here : https://disqu
 # disable language
 disableLanguages = [] # example: ["fr"] for disable french language
 
-
 ############################# Outputs ##############################
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[author]
+  name = 'C.M.P.Soares, Lda.'
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
