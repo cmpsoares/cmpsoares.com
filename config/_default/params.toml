@@ -72,6 +72,10 @@ expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
 
+[tidio_chatbot]
+enable = true
+id = "7ddfxeybyiti3uffdq8ewy4onogssfzd"
+
 ############################# social site ########################
 [[social]]
 title = "facebook"

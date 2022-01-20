@@ -1,0 +1,5 @@
+{{ if site.Params.tidio_chatbot.enable }}
+{{ with site.Params.tidio_chatbot }}
+<script src="//code.tidio.co/{{.id}}.js" async></script>
+{{ end }}
+{{ end }}
