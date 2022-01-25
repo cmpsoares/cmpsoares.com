@@ -12,9 +12,9 @@ image : "https://user-images.githubusercontent.com/4914211/150984942-cf5809f3-2e
 # post author
 author : "Carlos Manuel Soares"
 # post categories
-categories: ["Developer Experience", "Cybersecurity", "Github", "How-to"]
+categories: ["Developer Experience", "Cybersecurity", "Tutotial"]
 # post tags
-tags: ["git", "github", "security", "cybersecurity", "signature", "GPG", "cryptography", "how-to"]
+tags: ["git", "github", "gitlab", "security", "cybersecurity", "signature", "GPG", "cryptography", "how-to", "commit"]
 # type
 type : "post"
 license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
