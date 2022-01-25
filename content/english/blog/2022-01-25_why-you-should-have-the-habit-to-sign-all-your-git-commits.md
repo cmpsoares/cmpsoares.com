@@ -6,7 +6,7 @@ watermark: "Tech Blog"
 # page header background image
 page_header_image: "https://user-images.githubusercontent.com/4914211/150984942-cf5809f3-2e40-438f-968e-1cd9973a5e95.png"
 # meta description
-description : "Why you should have the habit to sign all your git commits. And a easy to follow how-to on its configuration."
+description : "Why you should have the habit to sign all your git commits. And an easy to follow how-to on its configuration."
 # post image
 image : "https://user-images.githubusercontent.com/4914211/150984942-cf5809f3-2e40-438f-968e-1cd9973a5e95.png"
 # post author
