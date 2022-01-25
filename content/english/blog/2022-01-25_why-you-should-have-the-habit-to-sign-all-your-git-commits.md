@@ -32,7 +32,6 @@ And even if you don't care about the security and authentication it provides to 
 
 It sounds more challenging than it is, and you can set it up once, and you're good to go for ages! Until you format or destroy your PC, basically... Or if you buy a new one for the fifth time this year, you spoiled rich ba... Ahem! Let me get my composure back. How cool does that badge look, right?!
 
-<!--adsense-->
 
 ## But why should I sign anything anyway?
 
@@ -52,7 +51,6 @@ It's kind of like sending a glass box with a letter in it. You are the only one 
 
 There are many asymmetric cryptography algorithms for many use cases (even bitcoin and most cryptocurrencies are based on these). Still, for messaging, usually, GPG and S/MIME are the choices. The same goes for GitHub commit messages. GPG is generally considered the standard to sign text messages, and S/MIME has shown some strengths with email and other media that's not just text.
 
-<!--adsense-->
 
 ## So, how do we sign a commit anyway?
 
@@ -69,7 +67,6 @@ To sign commits using GPG and have those commits verified on Github, we need to 
 5. Sign commits
 6. Sign tags
 
-<!--adsense-->
 
 ### Part 1: Check for GPG installation and Keys
 
@@ -104,7 +101,6 @@ Now we need to generate our GPG key to sign our commits with the following steps
 7. Type a secure passphrase.
 8. Now use the `gpg --list-secret-keys --keyid-format=long` command to validate that it has been created successfully.
 
-<!--adsense-->
 
 ### Part 3: Adding the GPG key to Github:
 
@@ -141,7 +137,6 @@ ssb   rsa4096/C744C29A059EAE08 2021-10-11 [E]
    <br><img src="https://user-images.githubusercontent.com/4914211/151031415-83f241bc-eb33-4295-b591-d0eb7557a603.png" alt="The Add key button" width="150">
 12. To confirm the action, you may be prompted to enter your GitHub password.
 
-<!--adsense-->
 
 ### Part 4: Configuring `git` to use your signature
 
@@ -169,7 +164,6 @@ $ git config --global user.signingkey AFBBCB53E2D934D5
 $ echo 'export GPG_TTY=$(tty)' >> ~/.zshrc
 ```
 
-<!--adsense-->
 
 ### Part 5: Sign the commits by default (Optional)
 
@@ -186,7 +180,6 @@ To store your GPG key passphrase, so you don't have to enter it every time you s
 
 You can also manually configure the gpg-agent to save your GPG key passphrase, but this doesn't integrate with Mac OS Keychain like ssh-agent and requires more setup.
 
-<!--adsense-->
 
 ### Part 6: Sign old commits
 
@@ -213,7 +206,6 @@ All your commits should be signed by this time, and in Github, they will show th
 
 But more important than that, you ensure the people consuming your code know that it is really yours, thus adding that professional flair to it.
 
-<!--adsense-->
 
 <details>
 <summary>
