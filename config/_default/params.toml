@@ -101,3 +101,13 @@ link = "https://github.com/cmpsoares"
 title = "linkedin"
 icon = "fab fa-linkedin-in" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/company/cmpsoares"
+
+[[social]]
+title = "medium"
+icon = "fab fa-medium-in" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://medium.com/cmpsoares"
+
+[[social]]
+title = "youtube"
+icon = "fab fa-youtube-in" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.youtube.com/channel/UCIfNE0xB-uiR1Rc-OIXzTlw"
