@@ -9,7 +9,7 @@ summaryLength = "10"
 # google analytics
 googleAnalytics = "G-832LF9WB7T" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
-disqusShortname = "cmpsoares-com" # get your shortname form here : https://disqus.com
+disqusShortname = "cmpsoares-com" # get your shortname from here : https://disqus.com
 # disable language
 disableLanguages = [] # example: ["fr"] for disable french language
 
