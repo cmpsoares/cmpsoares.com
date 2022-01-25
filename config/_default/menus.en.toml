@@ -5,11 +5,10 @@ name = "Services"
 URL = "service"
 weight = 3
 
-# TODO:
-# [[main]]
-# name = "Tech Blog"
-# URL = "blog"
-# weight = 4
+[[main]]
+name = "Tech Blog"
+URL = "blog"
+weight = 4
 
 [[main]]
 weight = 6

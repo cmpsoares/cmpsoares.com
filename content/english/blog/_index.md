@@ -1,11 +1,11 @@
 ---
-title: "Blog"
+title: "Tech Blog"
 # watermark text
-watermark: "Blog"
+watermark: "Tech Blog"
 # page header background image
-page_header_image: "images/background/about.jpg"
+page_header_image: "images/background/tech-blog.jpeg"
 # meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+description : "We started this blog as we believe in sharing knowledge with the public and using it as a way to force us to improve ourselves.<br> Feel free to comment and reach out to us with questions or suggestions. We would love to learn with you."
 
 draft: false
 ---
