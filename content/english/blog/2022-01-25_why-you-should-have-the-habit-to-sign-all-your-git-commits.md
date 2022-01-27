@@ -6,20 +6,21 @@ watermark: "Tech Blog"
 # page header background image
 page_header_image: "https://user-images.githubusercontent.com/4914211/150984942-cf5809f3-2e40-438f-968e-1cd9973a5e95.png"
 # meta description
-description : "Why you should have the habit to sign all your git commits. And an easy to follow how-to on its configuration."
+description: "Why you should have the habit to sign all your git commits. And an easy to follow how-to on its configuration."
 # post image
-image : "https://user-images.githubusercontent.com/4914211/150984942-cf5809f3-2e40-438f-968e-1cd9973a5e95.png"
+image: "https://user-images.githubusercontent.com/4914211/150984942-cf5809f3-2e40-438f-968e-1cd9973a5e95.png"
 # post author
-author : "Carlos Manuel Soares"
+author: "Carlos Manuel Soares"
 # post categories
 categories: ["Developer Experience", "Cybersecurity", "Tutotial"]
 # post tags
 tags: ["git", "github", "gitlab", "security", "cybersecurity", "signature", "GPG", "cryptography", "how-to", "commit"]
 # type
-type : "post"
+type: "post"
 license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
   target=\"_blank\">CC BY-NC 4.0</a>
 comment: true
+medium_repost_url: "https://medium.com/cmpsoares/why-you-should-have-the-habit-to-sign-all-your-git-commits-add2edef0135"
 ---
 ## It just looks so darn cool!
 
