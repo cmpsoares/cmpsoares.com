@@ -69,7 +69,7 @@ tagmanager_id = "GTM-WHLHKSH"
 [cookies]
 enable = true
 expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
+content = "This site uses cookies. By continuing to use this website, you agree to their use. For more details please check our [cookie policy](https://cmpsoares.com/cookie_policy.html)"
 button = "I Accept"
 
 [tidio_chatbot]
