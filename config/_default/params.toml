@@ -76,6 +76,10 @@ button = "I Accept"
 enable = true
 id = "7ddfxeybyiti3uffdq8ewy4onogssfzd"
 
+[termly]
+enable = true
+data-website-uuid="80bf8d48-6a62-46f0-b136-a7c488fe91c3"
+
 ############################# social site ########################
 [[social]]
 title = "facebook"
