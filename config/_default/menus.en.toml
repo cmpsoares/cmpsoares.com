@@ -67,6 +67,10 @@ URL = "contact"
 name = "Services"
 URL = "service"
 
-# [[footer]]
-# name = "Privacy Policy"
-# URL = "#"
+[[footer]]
+name = "Privacy Policy"
+URL = "privacy_policy"
+
+#[[footer]]
+#name = "Terms and Conditions"
+#URL = "terms"
