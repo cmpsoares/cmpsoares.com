@@ -56,21 +56,31 @@ hasChildren = true
 # URL = "about"
 
 [[footer]]
+weight = 1
 name = "About us"
 URL = "about"
 
 [[footer]]
+weight = 2
 name = "Contact us"
 URL = "contact"
 
 [[footer]]
+weight = 3
 name = "Services"
 URL = "service"
 
 [[footer]]
+weight = 4
 name = "Privacy Policy"
 URL = "privacy_policy"
 
-#[[footer]]
-#name = "Terms and Conditions"
-#URL = "terms"
+[[footer]]
+weight = 5
+name = "Cookie Policy"
+URL = "cookie_policy"
+
+[[footer]]
+weight = 6
+name = "Terms and Conditions"
+URL = "terms"
