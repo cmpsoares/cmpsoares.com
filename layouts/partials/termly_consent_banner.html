@@ -1,11 +1,10 @@
 {{ if site.Params.termly.enable }}
 {{ with site.Params.termly }}
-<!-- Termly Consent Banner -->
 <script
   type="text/javascript"
   src="https://app.termly.io/embed.min.js"
   data-auto-block="on"
-  data-website-uuid="{{.data-website-uuid}}"
+  data-website-uuid="{{.data_website_uuid}}"
   ></script>
 {{ end }}
 {{ end }}

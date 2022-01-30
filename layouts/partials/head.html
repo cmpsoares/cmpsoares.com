@@ -53,14 +53,14 @@
   {{ with .twitter -}}<meta name="twitter:creator" content="@{{ . }}"/>{{ end -}}
 {{ end -}}
 
+<!-- Termly Consent Banner -->
+{{- partial "termly_consent_banner.html" . -}}
+
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
 <!-- google tag manager -->
 {{- partial "google_tagmanager_head.html" . -}}
-
-<!-- Termly Consent Banner -->
-{{- partial "termly_consent_banner.html" . -}}
 
 <!-- google analytics -->
 {{ template "_internal/google_analytics.html" . }}
