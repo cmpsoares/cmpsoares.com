@@ -46,7 +46,7 @@ mailchimp_form_name = "b_a37f9f4e15985d7754bad97ba_284d8c24ca" # replace this co
 # Google Services
 # Google Adsense
 [google_adsense]
-enable = true
+enable = false # tagmanager is used
 client = "ca-pub-9080200840721283"
 inArticleSlot = "9080200840721283"
 
