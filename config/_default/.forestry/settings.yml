@@ -42,7 +42,7 @@ sections:
   path: static/.htaccess
   label: ".htaccess"
 upload_dir: forestry/cmpsoares/media
-public_path: https://cmpsoares-com.netlify.app/media
+public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":year:/:month:/:day:/:filename:"
