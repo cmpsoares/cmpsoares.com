@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: English
+- type: directory
+  path: content/english
+  label: Content
+  create: documents
+  match: "*"
 upload_dir: config/_default/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
