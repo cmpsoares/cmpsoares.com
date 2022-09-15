@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: static/.htaccess
+  label: ".htaccess"
+  match: "**/*"
 - type: heading
   label: Configuration
 - type: document
@@ -31,10 +35,14 @@ sections:
   label: Static
 - type: directory
   path: static
-  label: Static Pages
+  label: HTML
   create: all
   match: "*"
   new_doc_ext: html
+- type: document
+  path: static/ads.txt
+  label: ads.txt
+  match: "**/*"
 upload_dir: config/_default/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
