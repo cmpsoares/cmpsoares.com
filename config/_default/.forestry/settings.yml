@@ -42,7 +42,7 @@ sections:
   path: static/.htaccess
   label: ".htaccess"
 upload_dir: static/media
-public_path: "/media"
+public_path: https://cmpsoares.com/media
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":year:/:month:/:day:/:filename:"
