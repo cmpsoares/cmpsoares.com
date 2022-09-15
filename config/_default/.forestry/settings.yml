@@ -12,6 +12,11 @@ sections:
   create: documents
   match: "*"
 - type: directory
+  path: content/english/career
+  label: Career
+  create: documents
+  match: "*"
+- type: directory
   path: content/english/blog
   label: Blog
   create: documents
