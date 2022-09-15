@@ -34,7 +34,7 @@ sections:
   label: Static Pages
   create: all
   match: "*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 upload_dir: config/_default/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
