@@ -58,6 +58,7 @@
   </div>
 </section>
 
+{{ if site.Params.contact_form.enable }}
 <section class="section section-lg-bottom bg-light">
   <div class="container">
     <div class="row">
@@ -66,7 +67,11 @@
         <h2 class="section-title">{{ i18n "form_title" }}</h2>
       </div>
       <div class="col-lg-12 text-center p-0">
+        {{ if site.Params.contact_form.netlify_forms_integration }}
+        <form name="contact" method="POST" data-netlify="true" class="row">
+        {{ else }}
         <form action="{{ site.Params.contact_form_action }}" method="post" class="row">
+        {{ end }}
           <div class="col-lg-6">
             <input type="text" class="form-control mb-4" placeholder="Your email">
           </div>
@@ -87,6 +92,7 @@
     </div>
   </div>
 </section>
+{{ end }}
 
 {{ if site.Params.gmap.enable }}
 <script src="https://maps.googleapis.com/maps/api/js?key={{site.Params.gmap.gmap_api}}&libraries=places"></script>
