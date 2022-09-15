@@ -8,7 +8,7 @@ sections:
   label: Configuration
 - type: document
   path: content/english/_index.md
-  label: Settings
+  label: Feature Settings
 - type: heading
   label: English
 - type: directory
