@@ -37,7 +37,7 @@ label = "Contact Us"
 link = "/contact"
 
 # Contact
-[contact]
+[contact_form]
 enable = true
 netlify_forms_integration = true
 
