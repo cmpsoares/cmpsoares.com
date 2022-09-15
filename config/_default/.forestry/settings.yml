@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: content/english/_index.md
+  label: Settings
+  match: "**/*"
 - type: heading
   label: English
 - type: directory
@@ -11,6 +15,7 @@ sections:
   label: Content
   create: documents
   match: "*"
+  exclude: _*
 - type: directory
   path: content/english/career
   label: Career
