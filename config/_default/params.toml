@@ -36,6 +36,11 @@ enable = true
 label = "Contact Us"
 link = "/contact"
 
+# Contact
+[contact]
+enable = true
+netlify_forms_integration = true
+
 # Subscription
 [subscription]
 enable = true
