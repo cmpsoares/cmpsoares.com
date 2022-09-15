@@ -38,11 +38,9 @@ sections:
 - type: document
   path: static/ads.txt
   label: ads.txt
-  match: "**/*"
 - type: document
   path: static/.htaccess
   label: ".htaccess"
-  match: "**/*"
 upload_dir: config/_default/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
