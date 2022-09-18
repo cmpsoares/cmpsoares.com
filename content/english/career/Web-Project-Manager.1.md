@@ -1,25 +1,18 @@
 ---
-title: "Web Project Manager - Team of PHP MySQL Developers"
-date: 2019-04-10T09:51:57+06:00
-# watermark text
-watermark: "Career"
-# page header background image
-page_header_image: "images/background/about.jpg"
-# meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
-# career logo
-image : "images/career/logo-1.png"
-# location
-location : "London, United Kingdom"
-# job type
-job_type : "Full time"
-# section
-job_category : "MySQL Developer"
-# job apply link
-apply_link : "#"
+title: Web Project Manager - Team of PHP MySQL Developers
+date: 2019-04-10T09:51:57.000+06:00
+watermark: Career
+page_header_image: images/background/about.jpg
+description: Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim
+  idest laborum sed ut perspiciatis.
+image: images/career/logo-1.png
+location: London, United Kingdom
+job_type: Full time
+job_category: MySQL Developer
+apply_link: "#"
+draft: true
+
 ---
-
-
 ### Jobs Description
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
