@@ -8,9 +8,7 @@
       {{ if site.Params.gmap.enable_gmap_api }}
       <div class="col-lg-7 rounded-xs mobile-height mb-5 mb-lg-0" id="map_canvas" data-latitude="{{.gmap_latitude}}" data-longitude="{{.gmap_longitude}}" data-marker="{{.gmap_marker | absURL}}" data-marker-label="{{.gmap_marker_label}}" data-zoom="{{.gmap_zoom}}"></div>
       {{ else if site.Params.gmap.enable_gmap_iframe }}
-      <div class="col-lg-7 rounded-xs mobile-height mb-5 mb-lg-0" id="map_canvas">
-        <iframe src="{{.gmap_iframe_url}}" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+      <iframe class="col-lg-7 rounded-xs mobile-height mb-5 mb-lg-0" id="map_canvas" src="{{.gmap_iframe_url}}" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       {{ end }}
       {{ end }}
       {{ end }}
