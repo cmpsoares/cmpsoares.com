@@ -8,7 +8,7 @@ description = "CMPSoares Lda. is an IT Consulting Company specialized in assisti
 author = "CMPSoares, Lda."
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "APARTADO 000469 - EC QUARTEIRA, 8125-999 QUARTEIRA, PORTUGAL"
+address = "APARTADO 000469<br>EC QUARTEIRA<br><br>8125-999 QUARTEIRA<br>PORTUGAL"
 mobile = "+44 20 8638 8170"
 whatsapp = "442086388170"
 whatsapp_label = "+44 20 8638 8170"
