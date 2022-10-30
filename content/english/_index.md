@@ -45,9 +45,6 @@ partner:
   - logo_image: "images/partner/github-logo-colour.png"
     partner_url: "https://github.com/"
     line: 2
-  - logo_image: "images/partner/findmore-consulting-logo-colour_x100.png"
-    partner_url: "https://www.findmore.pt/"
-    line: 2
 
 ################################ Features ###############################
 feature:
@@ -132,12 +129,6 @@ technology:
     line: 2
   - logo_image: "images/technology/hugo-logo-colour.png"
     technology_url: "https://gohugo.io/"
-    line: 3
-  - logo_image: "images/technology/wordpress-logo-colour.png"
-    technology_url: "https://wordpress.com/"
-    line: 3
-  - logo_image: "images/technology/woocommerce-logo-colour.png"
-    technology_url: "https://woocommerce.com/"
     line: 3
 
 ############################ video ###############################
