@@ -32,12 +32,9 @@ partner:
     line: 1
   - logo_image: "images/partner/elastic-logo-colour.png"
     partner_url: "https://www.elastic.co/"
-    line: 1
+    line: 2
   - logo_image: "images/partner/google-cloud-platform-logo-colour.png"
     partner_url: "https://cloud.google.com/"
-    line: 2
-  - logo_image: "images/partner/shopify-logo-colour.png"
-    partner_url: "https://www.shopify.com/"
     line: 2
   - logo_image: "images/partner/netlify-logo-colour.png"
     partner_url: "https://www.netlify.com/"
@@ -111,7 +108,7 @@ technology:
     line: 1
   - logo_image: "images/technology/jenkins-logo-colour.png"
     technology_url: "https://www.jenkins.io/"
-    line: 1
+    line: 3
   - logo_image: "images/technology/go-language-logo-colour.png"
     technology_url: "https://golang.org/"
     line: 2
@@ -126,7 +123,7 @@ technology:
     line: 2
   - logo_image: "images/technology/python-logo-colour.png"
     technology_url: "https://www.python.org/"
-    line: 2
+    line: 3
   - logo_image: "images/technology/hugo-logo-colour.png"
     technology_url: "https://gohugo.io/"
     line: 3
