@@ -20,7 +20,7 @@ type: "post"
 license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
   target=\"_blank\">CC BY-NC 4.0</a>
 comment: true
-medium_repost_url: ""
+medium_repost_url: "https://medium.com/@cmpsoares/deciphering-techs-unsung-heroes-a-layman-s-guide-to-devops-sre-infrastructure-cloud-5fb8553a9b2e"
 ---
 # Deciphering Tech's Unsung Heroes: A Layman's Guide to DevOps, SRE, Infrastructure, Cloud, DevSecOps, and SysAdmin Roles
 
