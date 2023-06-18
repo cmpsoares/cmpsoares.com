@@ -6,21 +6,21 @@ watermark: "Tech Blog"
 # page header background image
 page_header_image: "https://user-images.githubusercontent.com/4914211/246637835-ea505640-ad7b-4618-a84a-c8bee690000a.jpg"
 # meta description
-description: "Uncover the mystery behind the roles of DevOps, SRE, Infrastructure Engineer, Cloud Engineer, DevSecOps Engineer, and SysAdmin. Understand their unique responsibilities, skillset overlap, and examples of their interconnected duties."
+description: "Uncover the mystery behind the roles of DevOps, SRE, Infrastructure Engineer, Cloud Engineer, DevSecOps Engineer, and SysAdmin. Understand their unique responsibilities, skillset overlap, and examples of interconnected duties."
 # post image
 image: "https://user-images.githubusercontent.com/4914211/246637835-ea505640-ad7b-4618-a84a-c8bee690000a.jpg"
 # post author
-author: "ChatGPT"
+author: "Carlos Manuel Soares"
 # post categories
 categories: ["Tech Roles", "Cybersecurity", "Tutorial"]
 # post tags
-tags: ["DevOps", "SRE", "Infrastructure Engineer", "Cloud Engineer", "DevSecOps Engineer", "SysAdmin", "Tech jobs", "Coding", "CI/CD", "Security practices", "IT problem-solving"]
+tags: ["DevOps", "SRE", "Infrastructure Engineer", "Cloud Engineer", "DevSecOps Engineer", "SysAdmin", "Tech jobs", "Coding", "CI/CD", "Security practices", "IT problem-solving", "IaC", "terraform", "ansible", "kubernetes", "k8s", "cloud", "python", "golang", "AWS", "GCP", "Azure"]
 # type
 type: "post"
-license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/"
-  target="_blank">CC BY-NC 4.0</a>
+license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+  target=\"_blank\">CC BY-NC 4.0</a>
 comment: true
-medium_repost_url: "https://medium.com/cmpsoares/deciphering-techs-unsung-heroes-a-laymans-guide-to-devops-sre-infrastructure-cloud-devsecops-and-sysadmin-roles"
+medium_repost_url: ""
 ---
 # Deciphering Tech's Unsung Heroes: A Layman's Guide to DevOps, SRE, Infrastructure, Cloud, DevSecOps, and SysAdmin Roles
 
