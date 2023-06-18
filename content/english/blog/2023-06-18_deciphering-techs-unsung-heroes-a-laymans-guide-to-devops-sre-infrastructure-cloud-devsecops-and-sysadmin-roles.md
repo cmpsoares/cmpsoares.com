@@ -26,27 +26,27 @@ medium_repost_url: ""
 
 Are you confused by the numerous tech job titles, like DevOps Engineer, Site Reliability Engineer (SRE), Infrastructure Engineer, Cloud Engineer, DevSecOps Engineer, and System Administrator (SysAdmin)? Trust me; you're not alone. I get this question asked a lot, even by the recruiters and companies that try to hire me for these positions, the fact is, it wasn't all clear to me either when I started. But let's uncover the mystery behind these roles and understand how they intersect in this ever-evolving tech landscape.
 
-## DevOps Engineer: The Harmony Maker
+### DevOps Engineer: The Harmony Maker
 
 A DevOps Engineer is like a symphony conductor, ensuring that all elements of software development (Dev) and IT operations (Ops) work in harmony. They are responsible for setting up a smooth and efficient pipeline to move software from development to production. Their primary focus is to automate as much of this process as possible.
 
-## Site Reliability Engineer (SRE): The Problem Solver
+### Site Reliability Engineer (SRE): The Problem Solver
 
 SREs, on the other hand, are problem solvers. Their core objective is to maintain system reliability and uptime. When an issue occurs that disrupts service, the SRE jumps into action. They also closely monitor systems to pre-emptively address potential issues.
 
-## Infrastructure Engineer: The Foundation Builder
+### Infrastructure Engineer: The Foundation Builder
 
 An Infrastructure Engineer can be likened to an architect or a construction engineer. They are responsible for designing and building the underlying network and server infrastructure that all software runs on. This includes managing systems, data centers, and related infrastructure.
 
-## Cloud Engineer: The Sky's the Limit
+### Cloud Engineer: The Sky's the Limit
 
 Cloud Engineers are specialised Infrastructure Engineers who focus on cloud-based infrastructure. They help businesses leverage the power of the cloud for their infrastructure needs. This can involve designing, implementing, and managing cloud systems and integrating them with other services.
 
-## DevSecOps Engineer: The Guardian
+### DevSecOps Engineer: The Guardian
 
 Think of DevSecOps Engineers as the guardians of the software lifecycle. They embed security into the DevOps process, ensuring that all code, systems, and processes adhere to security standards. Their goal is to catch vulnerabilities before they become threats.
 
-## System Administrator (SysAdmin): The Multi-Tasker
+### System Administrator (SysAdmin): The Multi-Tasker
 
 SysAdmins, the tech world's multi-taskers, handle a broad array of tasks. From user support to system maintenance, backups, and recovery, they ensure the IT infrastructure, Middleware and Applications all run smoothly.
 
