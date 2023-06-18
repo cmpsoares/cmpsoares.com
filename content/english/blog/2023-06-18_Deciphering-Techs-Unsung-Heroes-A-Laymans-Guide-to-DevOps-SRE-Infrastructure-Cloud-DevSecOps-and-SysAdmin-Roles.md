@@ -1,6 +1,6 @@
 ---
 title: "Deciphering Tech's Unsung Heroes: A Layman's Guide to DevOps, SRE, Infrastructure, Cloud, DevSecOps, and SysAdmin Roles"
-date: 2023-06-18T17:00:00+00:00
+date: 2023-06-18T01:00:00+00:00
 # watermark text
 watermark: "Tech Blog"
 # page header background image
