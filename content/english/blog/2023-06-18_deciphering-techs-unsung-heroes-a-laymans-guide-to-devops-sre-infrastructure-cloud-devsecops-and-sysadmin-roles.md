@@ -22,9 +22,7 @@ license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://c
 comment: true
 medium_repost_url: "https://medium.com/@cmpsoares/deciphering-techs-unsung-heroes-a-layman-s-guide-to-devops-sre-infrastructure-cloud-5fb8553a9b2e"
 ---
-# Deciphering Tech's Unsung Heroes: A Layman's Guide to DevOps, SRE, Infrastructure, Cloud, DevSecOps, and SysAdmin Roles
-
-Are you confused by the numerous tech job titles, like DevOps Engineer, Site Reliability Engineer (SRE), Infrastructure Engineer, Cloud Engineer, DevSecOps Engineer, and System Administrator (SysAdmin)? Trust me; you're not alone. I get this question asked a lot, even by the recruiters and companies that try to hire me for these positions, the fact is, it wasn't all clear to me either when I started. But let's uncover the mystery behind these roles and understand how they intersect in this ever-evolving tech landscape.
+Are you confused by the numerous tech job titles, like DevOps Engineer, Site Reliability Engineer (SRE), Infrastructure Engineer, Cloud Engineer, DevSecOps Engineer, and System Administrator (SysAdmin)? Trust me; you're not alone. I get this question asked a lot, even by the recruiters and companies that try to hire me for these positions. The fact is, it wasn't all clear to me either when I started. But let's uncover the mystery behind these roles and understand how they intersect in this ever-evolving tech landscape.
 
 ### DevOps Engineer: The Harmony Maker
 
