@@ -24,8 +24,6 @@ medium_repost_url: ""
 ---
 # From Syllogism to GPT-4: Chatbots' Evolution
 
-## Introduction
-
 As you read these words, a complex network of neurons within your brain is firing, decoding symbols and constructing meanings. You are engaged in one of the most intricate activities humans are capable of - language understanding. This profound capability has allowed us to build societies, share ideas, and shape our collective future. But what if we could replicate this capacity for language comprehension and generation in machines? This question is the driving force behind one of the most revolutionary fields of the 21st century: language learning models and generative artificial intelligence.
 
 In this article, we will embark on a fascinating journey through time, retracing the steps of the pioneers who dared to dream about intelligent machines, from the ancient Greeks who laid the foundation of logical reasoning to the inventors of the first computers and onto the researchers today pushing the boundaries of what AI can achieve.
