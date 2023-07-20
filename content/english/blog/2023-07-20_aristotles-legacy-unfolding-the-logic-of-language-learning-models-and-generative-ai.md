@@ -32,6 +32,8 @@ In this article, we will embark on a fascinating journey through time, retracing
 
 Prepare to unfold the captivating saga of logical reasoning, learning machines, and artificial intelligence. In this tale, each chapter paves the way for the next, leading us to the marvels of today's AI capabilities. This isn't just a history lesson; it's a peek into our future as we discover how far we've come and, more importantly, explore the exciting possibilities that await us in the era of AI.
 
+---
+
 ## The Greek Foundations: Aristotle and the Syllogism (384 – 322 BC)
 
 Our exploration into the journey of AI must first take us back to the roots of logical reasoning, where we find ourselves in the epoch of Ancient Greece, a golden era of human thought. In particular, we turn our attention to the profound contributions of the philosopher Aristotle, whose works between 384 and 322 BC have profoundly influenced the world.
@@ -50,6 +52,8 @@ As we delve further into the story of AI, we'll continually circle back to this 
 
 Thus, as we trace the evolution of AI, we start not with the first computers or algorithms but with Aristotle, the philosopher whose logical framework still underpins, in a way, the AI systems we build today. It is a testament to the legacy of these early thinkers that their influence extends far beyond their own era, reaching into the heart of the most sophisticated technologies of our modern world.
 
+---
+
 ## Early Programming and Symbolic AI (Mid-20th Century)
 
 The era of early programming and Symbolic AI commenced in the mid-20th century when the notion of logic and symbol manipulation was meticulously transformed into sophisticated programming languages. A pivotal influence during this period was the work of English mathematician George Boole, who, in the 19th century, had established the principles of Boolean algebra. The binary nature of Boolean logic, representing data as 'true' or 'false', proved integral in developing the logic gates that constitute the basic building blocks of digital electronics and, by extension, modern computing.
@@ -60,6 +64,8 @@ However, despite their promise, these early models also came with significant dr
 
 Yet, these initial forays into Symbolic AI were far from fruitless; they paved the way for more advanced computational models and brought us a step closer to the dream of creating machines capable of mimicking human thought processes.
 
+---
+
 ## The Rise of Expert Systems (1970s-1980s)
 
 In the 1970s and 80s, the field of AI expanded into expert systems. These were designed to mimic the decision-making capabilities of human experts in specific domains, using a knowledge base filled with expert-provided rules and facts coupled with an inference engine to apply these rules to solve problems.
@@ -68,11 +74,17 @@ Expert systems made significant strides in various sectors, including medicine a
 
 Despite these limitations, expert systems were a key stepping stone in AI's journey. They illustrated AI's potential to tackle complex problems. They paved the way for more advanced AI techniques that could learn and adapt, which are the cornerstone of modern AI systems today.
 
+---
+
 ## Big Data and the Dawn of Neural Networks (2000s - 2010s)
 
 The ubiquity of the internet resulted in data production at an unprecedented rate, ushering in the era of big data. Initially, traditional methods such as Support Vector Machines (SVMs) and Random Forests were used to interpret these vast datasets.
+
 However, as computational power increased with advancements in GPU technology and methods for training deep neural networks improved, these models started outperforming traditional methods on a variety of tasks. Inspired by biological brains, the concept of a neural network could have been more novel. This idea can be traced back to the 1950s and 60s, with the Perceptron learning algorithm, proposed by Frank Rosenblatt, considered one of the earliest forms of a neural network.
-The actual power of these concepts was realized when researchers began stacking layers of artificial neurons to create "deep" networks, leading to significant advancements in areas like image and speech recognition. Pioneers of this revolution included researchers like Geoffrey Hinton, Yann LeCun, and Yoshua Bengio, who were later awarded the Turing Award for their contributions. The ability to effectively harness the potential of neural networks opened the way for the development of more sophisticated AI systems, setting the stage for models like GPT-3 and beyond.  
+
+The actual power of these concepts was realized when researchers began stacking layers of artificial neurons to create "deep" networks, leading to significant advancements in areas like image and speech recognition. Pioneers of this revolution included researchers like Geoffrey Hinton, Yann LeCun, and Yoshua Bengio, who were later awarded the Turing Award for their contributions. The ability to effectively harness the potential of neural networks opened the way for the development of more sophisticated AI systems, setting the stage for models like GPT-3 and beyond.
+
+---
 
 ## The Unsupervised Learning Revolution (2010s)
 
@@ -80,11 +92,15 @@ While most of the early work in neural networks focused on supervised learning (
 
 This era saw the rise of powerful algorithms such as k-means clustering, hierarchical clustering, DBSCAN, and Self-Organizing Maps. These models were capable of discovering hidden structures in data without the need for labels, making them incredibly versatile and valuable in scenarios where labelled data was scarce or expensive to obtain.
 
+---
+
 ## Breakthroughs in Generative AI Pre-GPT (Late 2010s)
 
 Meanwhile, another branch of AI was coming into the limelight - generative models. Unlike discriminative models that learned to distinguish between different types of inputs, generative models learned to create new data that resembled the training data. The introduction of generative models like Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) marked a turning point in the field.
 
 Introduced by Ian Goodfellow and his colleagues, GANs consisted of two neural networks: a generator network that produced new data and a discriminator network that evaluated the generator's outputs. The interplay between these networks enabled the generation of incredibly realistic synthetic data. This sparked a revolution in fields ranging from computer graphics to fashion, where AI began creating convincing images, designs, and even artwork.
+
+---
 
 ## The Emergence of Transformer Models (Late 2010s - Early 2020s)
 
@@ -94,11 +110,15 @@ Before the Transformer, Recurrent Neural Networks (RNNs) were the go-to architec
 
 In stark contrast, the Transformer model discarded this sequential approach. Instead, it introduced the concept of 'attention', enabling the model to focus on different parts of the input sequence when producing an output, effectively allowing the model to simultaneously consider all words in a sentence. This novel approach not only resolved the issues related to parallelization and long-term dependencies but also proved to be more effective in understanding the context and nuances of language. This innovative model design propelled the field of natural language processing into a new era, setting the stage for the development of even more powerful language models like GPT.
 
+---
+
 ## The Era of Language Models: GPT-1 and GPT-2 (2018-2019)
 
 The potential of the Transformer model was soon realized by the AI research lab OpenAI, leading to the development of the Generative Pretrained Transformer (GPT) models. Unlike previous language models that required task-specific architectures and training, GPT was trained to predict the next word in a sentence and could be applied to a variety of tasks with only minimal changes, a concept known as transfer learning.
 
 GPT-2, released in 2019, was an extension of GPT with a larger model size and more data. The model showed a surprising ability to generate coherent and contextually relevant sentences, bringing us one step closer to AI that could understand and generate human-like text. However, its release was also controversial due to concerns about misuse of the technology, highlighting the growing need for ethical considerations in AI development.
+
+---
 
 ## The GPT-3 Phenomenon (2020)
 
@@ -108,6 +128,8 @@ GPT-3 was a breakthrough in the sense that it could understand prompts and gener
 
 However, the launch of GPT-3 wasn't without controversy. There were increasing concerns about the model's potential misuse, such as generating misleading news articles, creating fake reviews, or spreading propaganda. The ethical implications brought to light the dual nature of AI technology: while it can significantly benefit society, it also necessitates careful handling to prevent misuse.
 
+---
+
 ## The Advent of GPT-3.5 Turbo and ChatGPT (2021-2022)
 
 In 2021, OpenAI introduced GPT-3.5 Turbo, a crucial stepping stone towards the development of the ChatGPT system. This new version retained the impressive language generation capabilities of GPT-3. Still, it was explicitly optimized and fine-tuned for conversational contexts, which had been a challenging area for AI.
@@ -115,6 +137,8 @@ In 2021, OpenAI introduced GPT-3.5 Turbo, a crucial stepping stone towards the d
 ChatGPT, unlike its chatbot predecessors such as ALICE, IBM's Watson, and Google's Dialogflow, which primarily relied on hardcoded responses or rule-based systems, creates responses dynamically rooted in the context of the conversation. This distinction elevates interactions with ChatGPT, making them feel more organic and engaging, akin to conversing with a human. This significant leap in AI application has become an integral part of our daily routines, extending beyond its initial purpose of aiding businesses and research. It serves as a personal assistant, a tutor across various subjects, a mental health aide, and even a creative instrument for idea generation, showcasing the vast potential of this technology.
 
 In 2022, OpenAI announced a research preview of ChatGPT. Millions of users' feedback helped refine the model, making it more reliable, safe, and versatile. In addition, a pricing plan for more dedicated access was introduced, allowing users to have priority access to new features and improvements and ensuring that access to ChatGPT remained free for as many people as possible.
+
+---
 
 ## GPT-4: A New Era of AI (2023 and Beyond)
 
@@ -127,6 +151,8 @@ Regarding technical aspects, GPT-4 is trained on an extensive corpus of data, wi
 Despite the promising improvements, GPT-4 does pose specific challenges. The computational power and energy required to run GPT-4 is significantly higher, potentially limiting its accessibility to smaller organizations or individual developers. Nevertheless, as we look ahead, the continual advances in computing power and increasing efficiency of AI models suggest a future where sophisticated models like GPT-4 will be more readily accessible.
 
 The arrival of GPT-4 heralds a new era in AI technology, opening up untapped potential across various sectors — from healthcare and education to entertainment and transportation. However, these technological leaps also require ongoing dialogue around AI's ethical and societal implications, prompting the need for proactive measures from developers, policymakers, and society at large.
+
+---
 
 ## Looking Toward the Future
 
