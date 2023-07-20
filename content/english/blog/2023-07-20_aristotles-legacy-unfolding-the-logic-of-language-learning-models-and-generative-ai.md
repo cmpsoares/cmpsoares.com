@@ -32,7 +32,7 @@ In this article, we will embark on a fascinating journey through time, retracing
 
 Prepare to unfold the captivating saga of logical reasoning, learning machines, and artificial intelligence. In this tale, each chapter paves the way for the next, leading us to the marvels of today's AI capabilities. This isn't just a history lesson; it's a peek into our future as we discover how far we've come and, more importantly, explore the exciting possibilities that await us in the era of AI.
 
-# The Greek Foundations: Aristotle and the Syllogism (384 – 322 BC)
+## The Greek Foundations: Aristotle and the Syllogism (384 – 322 BC)
 
 Our exploration into the journey of AI must first take us back to the roots of logical reasoning, where we find ourselves in the epoch of Ancient Greece, a golden era of human thought. In particular, we turn our attention to the profound contributions of the philosopher Aristotle, whose works between 384 and 322 BC have profoundly influenced the world.
 
