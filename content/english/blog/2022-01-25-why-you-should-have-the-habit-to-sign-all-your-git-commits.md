@@ -12,7 +12,7 @@ image: "https://user-images.githubusercontent.com/4914211/150984942-cf5809f3-2e4
 # post author
 author: "Carlos Manuel Soares"
 # post categories
-categories: ["Developer Experience", "Cybersecurity", "Tutotial"]
+categories: ["Developer Experience", "Cybersecurity", "Tutorial"]
 # post tags
 tags: ["git", "github", "gitlab", "security", "cybersecurity", "signature", "GPG", "cryptography", "how-to", "commit"]
 # type
