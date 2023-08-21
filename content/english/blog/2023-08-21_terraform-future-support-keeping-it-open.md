@@ -1,4 +1,28 @@
-## Terraform's Future: Our Support for Keeping it Open!
+---
+title: "Terraform's Future: Our Support for Keeping it Open!"
+date: 2023-08-21T9:15:00+00:00
+# watermark text
+watermark: "Tech Blog"
+# page header background image
+page_header_image: "https://user-images.githubusercontent.com/4914211/261976408-00a1c467-4996-4313-a58e-09b4c91e5dda.png"
+# meta description
+description: "Explore the implications of HashiCorp's pivot from Terraform's open-source license to BSL v1.1 in 2023. Understand the significance of the OpenTF initiative and how CMPSoares, Lda. aims to support the continued open-source journey of Terraform."
+# post image
+image: "https://user-images.githubusercontent.com/4914211/261976408-00a1c467-4996-4313-a58e-09b4c91e5dda.png"
+# post author
+author: "Carlos Manuel Soares"
+# post categories
+categories: ["DevOps", "Licensing and Open Source", "Technology Updates", "Community Initiatives"]
+# post tags
+tags: ["Terraform", "HashiCorp", "Open-source", "BSL v1.1 license", "MPL v2 license", "OpenTF initiative", "DevOps", "Infrastructure as Code (IaC)", "CMPSoares, Lda.", "Licensing"]
+# type
+type: "post"
+license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+  target=\"_blank\">CC BY-NC 4.0</a>
+comment: true
+medium_repost_url: ""
+---
+
 A recent surprise caught the attention of the DevOps community. On August 10, 2023, HashiCorp decided to pivot from Terraform's nine-year-long open-source journey under the MPL v2 license to the non-open-source BSL v1.1 license. As passionate and long-term users of Terraform, this move raised some eyebrows at CMPSoares, Lda.
 
 ## Why Open-Source Matters in the Terraform Universe
