@@ -1,4 +1,27 @@
-# Blog Post: Enhancing Collaboration with Centralized GitHub Organizational Workflows
+---
+title: "Improving Collaboration with Centralized GitHub Organizational Workflows"
+date: 2024-01-12T17:00:00+00:00
+# watermark text
+watermark: "Tech Blog"
+# page header background image
+page_header_image: ""
+# Meta Description
+description: "Explore how to centralize GitHub organizational workflows to enhance team collaboration and communication. Learn how to set up and manage team notifications across multiple repositories with ease."
+# Post Image
+image: "" # Note: Use an image that represents centralized workflows in GitHub or a schematic illustration of the GitHub Team Mention Notifier in action.
+# Post Author
+author: "Carlos Manuel Soares"
+# Post Categories
+categories: ["Developer Experience", "GitHub", "Workflow Automation", "Collaboration Tools"]
+# Post Tags
+tags: ["GitHub", "Centralized Workflows", "Team Collaboration", "Notification System", "Workflow Automation", "GitHub Actions", "Organizational Management", "GitHub Team Mention Notifier", "Efficiency", "Communication"]
+# type
+type: "post"
+license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+  target=\"_blank\">CC BY-NC 4.0</a>
+comment: true
+medium_repost_url: ""
+---
 
 ## Introduction
 
