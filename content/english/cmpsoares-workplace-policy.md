@@ -1,7 +1,7 @@
 ---
 title: CMPSOARES's Workplace Policy
-date: 2024-03-23T07:31:58.000+00:00
-lastmod: 2024-03-23T07:31:58.000+00:00
+date: 2024-03-23T00:00:01.000+00:00
+lastmod: 2024-03-23T00:00:01.000+00:00
 author: Carlos Manuel Soares
 author_link: https://www.cmpsoares.me/
 description: At CMPSOARES, we understand the vital role flexibility plays in today's work landscape. Our workplace policy prioritizes empowering employees to work where they feel most comfortable and productive.
