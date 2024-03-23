@@ -1,16 +1,16 @@
 ---
-title: CMPSOARES's Progressive Workplace Policy
-date: 2024-03-26T07:31:58.000+00:00
-lastmod: 2024-03-26T07:31:58.000+00:00
+title: CMPSOARES's Workplace Policy
+date: 2024-03-23T07:31:58.000+00:00
+lastmod: 2024-03-23T07:31:58.000+00:00
 author: Carlos Manuel Soares
 author_link: https://www.cmpsoares.me/
 description: At CMPSOARES, we understand the vital role flexibility plays in today's work landscape. Our workplace policy prioritizes empowering employees to work where they feel most comfortable and productive.
-slug: cmpsoares-progressive-workplace-policy
+slug: cmpsoares-workplace-policy
 license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>
 description_as_summary: true
 ---
 
-At CMPSOARES, we recognize the crucial importance of flexibility in navigating today's dynamic work environment. Our progressive workplace policy is meticulously designed to empower our employees, enabling them to work in environments where they thrive both personally and professionally.
+At CMPSOARES, we recognize the crucial importance of flexibility in navigating today's dynamic work environment. Our workplace policy is meticulously designed to empower our employees, enabling them to work in environments where they thrive both personally and professionally.
 
 ### Remote Work Empowerment and Support
 
