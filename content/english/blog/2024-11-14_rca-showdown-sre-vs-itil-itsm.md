@@ -100,8 +100,8 @@ Here’s how to make this work in practice:
 
    Example table:
 
-   | **Root Cause Type** | **Details**                                     |
-   |---------------------|-------------------------------------------------|
+   |     Root Cause Type  | Details                                         |
+   |----------------------|-------------------------------------------------|
    | Technical            | Outdated monitoring rule missed the alert.      |
    | Process              | Change request bypassed approval process.       |
 
