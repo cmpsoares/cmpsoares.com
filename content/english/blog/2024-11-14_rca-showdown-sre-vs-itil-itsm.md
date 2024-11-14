@@ -154,7 +154,7 @@ Both SRE and ITIL/ITSM teams thrive in a **blameless culture**, where the goal i
 
 ---
 
-##### 3. **Collaborative Preventive Actions**  
+##### 3. Collaborative Preventive Actions
 Preventive actions are where SREs and ITIL teams can truly shine together. Each team brings its own strengths to the table:
 
 - **SRE Contributions:**  
