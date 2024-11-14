@@ -24,8 +24,6 @@ comment: true
 medium_repost_url: ""
 ---
 
-# RCA Showdown: SRE vs. ITIL/ITSM, and Why We Should All Just Get Along
-
 Ah, the humble RCA (Root Cause Analysis). On the surface, it’s a simple concept: something went wrong, so let’s figure out why and make sure it doesn’t happen again. But when you bring together teams from the **SRE** camp and the **ITIL/ITSM** world, things can get… lively. These two camps have different philosophies, goals, and even jargon. If left unchecked, this can lead to misunderstandings, frustration, and possibly the kind of workplace tension that makes the weekly stand-up feel like a Shakespearean tragedy.
 
 But here’s the kicker: SRE and ITIL/ITSM don’t have to be adversaries. In fact, when combined thoughtfully, they can produce an RCA process that’s greater than the sum of its parts. Let’s break this down, shall we?
