@@ -30,7 +30,7 @@ But here’s the kicker: SRE and ITIL/ITSM don’t have to be adversaries. In fa
 
 ---
 
-## What’s an RCA Anyway? 
+### What’s an RCA Anyway? 
 
 For those new to the world of acronyms, RCA stands for **Root Cause Analysis**. It's the process of identifying what went wrong, why it went wrong, and what can be done to prevent it from happening again. Think of it as a post-mortem for incidents, only without the creepy medical overtones.
 
@@ -38,11 +38,11 @@ At its core, RCA is about learning and improving. But how you approach it depend
 
 ---
 
-### The SRE Way: Blameless, Automated, and Always Learning
+#### The SRE Way: Blameless, Automated, and Always Learning
 
 Let’s start with the SREs. Born out of Google’s engineering philosophy, **Site Reliability Engineering** focuses on system reliability, automation, and reducing toil (i.e., repetitive, soul-crushing manual work). When something breaks, SREs conduct **blameless RCAs**. The goal? Identify what went wrong without pointing fingers, so the team can focus on system improvements.
 
-#### Key features of SRE RCAs:
+##### Key features of SRE RCAs:
 - **Blamelessness**: Incidents are viewed as opportunities to learn, not to assign blame.
 - **Data-Driven**: Metrics and logs are examined to paint a clear picture of what happened.
 - **Automation-Centric**: Preventive actions often include automating tests, monitoring, or recovery processes.
@@ -51,11 +51,11 @@ SRE RCAs aren’t just about fixing the immediate problem. They’re about makin
 
 ---
 
-### The ITIL/ITSM Way: Process-Oriented and Customer-Focused
+#### The ITIL/ITSM Way: Process-Oriented and Customer-Focused
 
 Now let’s look at **ITIL/ITSM** (Information Technology Infrastructure Library / IT Service Management). While ITSM refers to the overall discipline of managing IT services, ITIL is one of the most popular frameworks within ITSM, known for its focus on structured processes and risk management. These frameworks are all about process discipline, risk management, and service delivery. In the ITIL world, incidents and problems are carefully documented, and RCAs are conducted to ensure **service continuity** and compliance with **SLAs (Service Level Agreements)**.
 
-#### Key features of ITIL RCAs:
+##### Key features of ITIL RCAs:
 - **Structured and Formal**: Every incident has a clear process for investigation, typically with assigned roles and responsibilities.
 - **Process Compliance**: The focus is often on ensuring that proper processes were followed (or identifying where they weren’t).
 - **Customer-Centric**: RCAs consider the business and customer impact, ensuring service levels are maintained.
@@ -64,7 +64,7 @@ ITIL RCAs are thorough and methodical, but they can sometimes feel rigid to thos
 
 ---
 
-### Philosophical Differences: SRE vs. ITIL/ITSM
+#### Philosophical Differences: SRE vs. ITIL/ITSM
 
 Here’s where it gets interesting. SRE and ITIL/ITSM are rooted in different philosophies:
 
@@ -75,11 +75,11 @@ In other words, SREs want to fix systems and automate away problems, while ITIL 
 
 ---
 
-## The Elephant in the Room: Separating Technical and Process Root Causes
+### The Elephant in the Room: Separating Technical and Process Root Causes
 
 One of the most effective ways to bridge the gap between SRE and ITIL/ITSM is to **separate technical root causes from process root causes** during RCA. Why? Because each team has a different focus, and lumping everything together can lead to confusion.
 
-### **Why Bother?**
+#### Why Bother?
 
 1. **Clarity and Focus**  
    SREs focus on **technical reliability**: Was there a bug? Did monitoring fail? Meanwhile, ITIL folks care about **process compliance**: Did someone bypass the change management process? Separating these discussions ensures that both technical and process issues get the attention they deserve.
@@ -89,7 +89,7 @@ One of the most effective ways to bridge the gap between SRE and ITIL/ITSM is to
 
 ---
 
-### **How to Do It**
+#### How to Do It?
 
 Here’s how to make this work in practice:
 
@@ -118,11 +118,11 @@ Here’s how to make this work in practice:
 
 ---
 
-### The Best of Both Worlds: Combining SRE and ITIL/ITSM RCAs
+#### The Best of Both Worlds: Combining SRE and ITIL/ITSM RCAs
 
 Now that we’ve discussed the importance of separating technical and process root causes, the next step is bringing everything together into a unified RCA process. The secret sauce? **Communication, collaboration, and a shared understanding of success metrics.**
 
-#### 1. **Unified RCA Framework**  
+##### 1. Unified RCA Framework  
 First, establish an RCA framework that addresses the unique strengths of both SRE and ITIL/ITSM teams. This framework should clearly define how technical and process issues will be identified, investigated, and resolved.
 
 - **Technical Analysis (SRE):** Focus on logs, metrics, and code to diagnose system-level failures. SREs excel at pinpointing the technical root cause and proposing engineering solutions.
@@ -132,7 +132,7 @@ By aligning these analyses within a single framework, you’ll cover all angles,
 
 ---
 
-#### 2. **Blameless Culture for All**  
+##### 2. Blameless Culture for All
 Both SRE and ITIL/ITSM teams thrive in a **blameless culture**, where the goal is continuous improvement, not finger-pointing. Whether the root cause is a failed deployment or a skipped change approval, the focus should remain on learning and preventing recurrence.
 
 - **For SREs:** Blameless postmortems highlight areas for technical improvement, like automation opportunities or monitoring gaps.
@@ -140,7 +140,7 @@ Both SRE and ITIL/ITSM teams thrive in a **blameless culture**, where the goal i
 
 ---
 
-#### 3. **Collaborative Preventive Actions**  
+##### 3. **Collaborative Preventive Actions**  
 Preventive actions are where SREs and ITIL teams can truly shine together. Each team brings its own strengths to the table:
 
 - **SRE Contributions:**  
@@ -153,7 +153,7 @@ Collaborating on these actions ensures a holistic approach to reliability and pr
 
 ---
 
-#### 4. **Unified Metrics: Speaking the Same Language**  
+##### 4. Unified Metrics: Speaking the Same Language
 
 Metrics are the lifeblood of both SRE and ITIL/ITSM practices, but they often speak different “languages” when it comes to defining success.
 
@@ -175,7 +175,7 @@ By tracking complementary metrics, you’ll create a comprehensive view of syste
 
 ---
 
-## Why Collaboration Is Key
+### Why Collaboration Is Key
 
 Here’s the bottom line: SRE and ITIL/ITSM don’t have to clash. In fact, when they work together, they can create an RCA process that’s both **robust** and **flexible**. Separating technical and process root causes while fostering communication ensures everyone knows what’s being discussed and why. This improves the RCA process and builds a stronger, more collaborative culture.
 
