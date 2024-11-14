@@ -44,7 +44,7 @@ At its core, RCA is about learning and improving. But how you approach it depend
 
 Let’s start with the SREs. Born out of Google’s engineering philosophy, **Site Reliability Engineering** focuses on system reliability, automation, and reducing toil (i.e., repetitive, soul-crushing manual work). When something breaks, SREs conduct **blameless RCAs**. The goal? Identify what went wrong without pointing fingers, so the team can focus on system improvements.
 
-Key features of SRE RCAs:
+#### Key features of SRE RCAs:
 - **Blamelessness**: Incidents are viewed as opportunities to learn, not to assign blame.
 - **Data-Driven**: Metrics and logs are examined to paint a clear picture of what happened.
 - **Automation-Centric**: Preventive actions often include automating tests, monitoring, or recovery processes.
@@ -55,9 +55,9 @@ SRE RCAs aren’t just about fixing the immediate problem. They’re about makin
 
 ### The ITIL/ITSM Way: Process-Oriented and Customer-Focused
 
-Now let’s look at **ITIL/ITSM** (Information Technology Infrastructure Library / IT Service Management). These frameworks are all about process discipline, risk management, and service delivery. In the ITIL world, incidents and problems are carefully documented, and RCAs are conducted to ensure **service continuity** and compliance with **SLAs (Service Level Agreements)**.
+Now let’s look at **ITIL/ITSM** (Information Technology Infrastructure Library / IT Service Management). While ITSM refers to the overall discipline of managing IT services, ITIL is one of the most popular frameworks within ITSM, known for its focus on structured processes and risk management. These frameworks are all about process discipline, risk management, and service delivery. In the ITIL world, incidents and problems are carefully documented, and RCAs are conducted to ensure **service continuity** and compliance with **SLAs (Service Level Agreements)**.
 
-Key features of ITIL RCAs:
+#### Key features of ITIL RCAs:
 - **Structured and Formal**: Every incident has a clear process for investigation, typically with assigned roles and responsibilities.
 - **Process Compliance**: The focus is often on ensuring that proper processes were followed (or identifying where they weren’t).
 - **Customer-Centric**: RCAs consider the business and customer impact, ensuring service levels are maintained.
