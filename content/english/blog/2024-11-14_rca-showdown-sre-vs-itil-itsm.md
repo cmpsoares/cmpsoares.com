@@ -1,3 +1,29 @@
+---
+title: "RCA Showdown: SRE vs. ITIL/ITSM, and Why We Should All Just Get Along"
+date: 2024-11-14T16:00:00+00:00
+# watermark text
+watermark: "Tech Blog"
+# page header background image
+page_header_image: "https://github.com/user-attachments/assets/35fd3701-e7d0-40ac-a6a1-6958a0abbd5d"
+# meta description
+description: "SRE and ITIL/ITSM don’t have to be adversaries. When combined thoughtfully, they can produce an RCA process that is greater than the sum of its parts."
+# post image
+image: "https://github.com/user-attachments/assets/35fd3701-e7d0-40ac-a6a1-6958a0abbd5d"
+# post author
+author: "Carlos Manuel Soares"
+# post categories
+# post categories
+categories: ["Site Reliability Engineering", "IT Service Management", "Incident Management", "Root Cause Analysis", "System Reliability", "IT Operations", "DevOps Practices", "IT Governance", "Tech Collaboration", "Engineering Best Practices"]
+# post tags
+tags: ["Site Reliability Engineering", "SRE", "ITIL", "ITSM", "Root Cause Analysis", "RCA", "Incident Management", "Postmortem", "Blameless RCA", "System Reliability", "Process Improvement", "Service Level Agreements", "SLAs", "Technical Debt", "Automation", "Change Management", "Collaboration", "Preventive Actions", "Metrics and Reporting", "Continuous Improvement", "DevOps", "Engineering Practices", "IT Governance", "Incident Response"]
+# type
+type: "post"
+license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+  target=\"_blank\">CC BY-NC 4.0</a>
+comment: true
+medium_repost_url: ""
+---
+
 # RCA Showdown: SRE vs. ITIL/ITSM, and Why We Should All Just Get Along
 
 Ah, the humble RCA (Root Cause Analysis). On the surface, it’s a simple concept: something went wrong, so let’s figure out why and make sure it doesn’t happen again. But when you bring together teams from the **SRE** camp and the **ITIL/ITSM** world, things can get… lively. These two camps have different philosophies, goals, and even jargon. If left unchecked, this can lead to misunderstandings, frustration, and possibly the kind of workplace tension that makes the weekly stand-up feel like a Shakespearean tragedy.
