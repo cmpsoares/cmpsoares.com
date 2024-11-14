@@ -99,11 +99,25 @@ Here’s how to make this work in practice:
    - **Process Root Causes**: Focus on procedural gaps, such as skipped approvals or miscommunication.
 
    Example table:
+<table>
+  <thead>
+    <tr style="background-color: black;">
+      <th style="color: white;">Root Cause Type</th>
+      <th style="color: white;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Technical</td>
+      <td>Outdated monitoring rule missed the alert.</td>
+    </tr>
+    <tr>
+      <td>Process</td>
+      <td>Change request bypassed approval process.</td>
+    </tr>
+  </tbody>
+</table>
 
-   |     Root Cause Type  | Details                                         |
-   |----------------------|-------------------------------------------------|
-   | Technical            | Outdated monitoring rule missed the alert.      |
-   | Process              | Change request bypassed approval process.       |
 
 2. **Ask Targeted Questions**  
    Guide your RCA discussions with specific questions:
