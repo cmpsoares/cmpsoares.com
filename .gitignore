@@ -20,3 +20,6 @@ backup-materials/
 
 # Lock files
 .hugo_build.lock
+
+# Local Netlify folder
+.netlify

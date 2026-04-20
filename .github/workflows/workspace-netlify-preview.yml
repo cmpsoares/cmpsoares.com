@@ -1,0 +1,81 @@
+name: Workspace Netlify Preview
+
+on:
+  pull_request:
+    branches:
+      - main
+      - production
+
+concurrency:
+  group: netlify-preview-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: |
+          if [ -f pnpm-lock.yaml ]; then
+            npm install -g pnpm
+            pnpm install --frozen-lockfile
+          elif [ -f yarn.lock ]; then
+            yarn install --frozen-lockfile
+          elif [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f bun.lockb ] || [ -f bun.lock ]; then
+            npm install -g bun
+            bun install --frozen-lockfile
+          else
+            npm install
+          fi
+
+      - name: Build
+        run: |
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm run build
+          elif [ -f yarn.lock ]; then
+            yarn build
+          elif [ -f bun.lockb ] || [ -f bun.lock ]; then
+            bun run build
+          else
+            npm run build
+          fi
+
+      - name: Detect publish directory
+        id: detect
+        run: |
+          for d in dist build out public .output/public; do
+            if [ -d "$d" ]; then
+              echo "publish_dir=$d" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+          echo "publish_dir=" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy preview to Netlify
+        if: steps.detect.outputs.publish_dir != ''
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: ${{ steps.detect.outputs.publish_dir }}
+          alias: deploy-preview-${{ github.event.pull_request.number }}
+          deploy-message: "PR ${{ github.event.pull_request.number }} preview"
+          enable-pull-request-comment: true
+          enable-commit-comment: false
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
