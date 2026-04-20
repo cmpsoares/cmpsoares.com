@@ -59,7 +59,7 @@ inArticleSlot = "9080200840721283"
 [gmap]
 enable = true
 enable_gmap_api = false
-gmap_api = "AIzaSyCYvuegtMCWiaZU4xIyZeFbXUVw7woGH6E"
+gmap_api = "" # Set via Netlify env var GMAP_API if enable_gmap_api is flipped to true
 gmap_latitude = "38.769248259734226"
 gmap_longitude = "-9.094876311500547"
 gmap_marker = "images/marker.png"
