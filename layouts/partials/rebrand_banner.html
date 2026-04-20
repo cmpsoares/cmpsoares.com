@@ -1,0 +1,172 @@
+{{"<!-- rebrand banner -->" | safeHTML }}
+<style>
+  /* TΣKSOMA brand palette */
+  #rebrand-banner {
+    --tks-deep: hsl(215, 48%, 5%);
+    --tks-dark: hsl(215, 48%, 10%);
+    --tks-navy: hsl(215, 50%, 22%);
+    --tks-gold: hsl(40, 55%, 52%);
+    --tks-gold-light: hsl(40, 50%, 72%);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    background: linear-gradient(90deg, var(--tks-deep) 0%, var(--tks-dark) 40%, var(--tks-navy) 100%);
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.45;
+    border-bottom: 1px solid var(--tks-gold);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  #rebrand-banner .rebrand-banner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 10px 48px 10px 16px;
+    text-align: center;
+    position: relative;
+  }
+  #rebrand-banner a.rebrand-banner-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  #rebrand-banner a.rebrand-banner-link:hover,
+  #rebrand-banner a.rebrand-banner-link:focus {
+    color: var(--tks-gold-light);
+    text-decoration: none;
+  }
+  #rebrand-banner strong {
+    color: #ffffff;
+    font-weight: 700;
+  }
+  #rebrand-banner .rebrand-new-brand {
+    color: var(--tks-gold);
+  }
+  #rebrand-banner .rebrand-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    background: var(--tks-gold);
+    color: var(--tks-deep);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  #rebrand-banner .rebrand-date {
+    white-space: nowrap;
+    color: var(--tks-gold-light);
+    font-weight: 600;
+  }
+  #rebrand-banner .rebrand-cta {
+    font-weight: 600;
+    color: var(--tks-gold);
+    text-decoration: underline;
+    text-decoration-color: var(--tks-gold);
+    text-underline-offset: 3px;
+  }
+  #rebrand-banner a.rebrand-banner-link:hover .rebrand-cta {
+    color: var(--tks-gold-light);
+    text-decoration-color: var(--tks-gold-light);
+  }
+  #rebrand-banner .rebrand-banner-close {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: #ffffff;
+    border: 0;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0.75;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease;
+  }
+  #rebrand-banner .rebrand-banner-close:hover,
+  #rebrand-banner .rebrand-banner-close:focus {
+    opacity: 1;
+    color: var(--tks-gold);
+    background: rgba(255, 255, 255, 0.06);
+    outline: none;
+  }
+  @media (max-width: 575.98px) {
+    #rebrand-banner .rebrand-banner-inner {
+      font-size: 13px;
+      padding: 8px 40px 8px 12px;
+    }
+    #rebrand-banner .rebrand-badge {
+      display: none;
+    }
+  }
+  body.has-rebrand-banner .naviagtion.fixed-top {
+    top: var(--rebrand-banner-height, 48px);
+  }
+  body.has-rebrand-banner {
+    padding-top: var(--rebrand-banner-height, 48px);
+  }
+</style>
+
+<div id="rebrand-banner" role="region" aria-label="Rebranding announcement" hidden>
+  <div class="rebrand-banner-inner">
+    <a class="rebrand-banner-link" href="https://tech.teksoma.com/" target="_blank" rel="noopener">
+      <span class="rebrand-badge">Rebrand</span>
+      <span>
+        <strong>CMPSOARES</strong> is now
+        <strong class="rebrand-new-brand">T&Sigma;KSOMA Technologies &amp; Consulting</strong>.
+        This brand, website and domain will be sunset on
+        <span class="rebrand-date"><time datetime="2026-06-01">1 June 2026</time></span> &mdash;
+        <span class="rebrand-cta">visit tech.teksoma.com</span>
+      </span>
+    </a>
+    <button type="button" class="rebrand-banner-close" aria-label="Dismiss rebranding banner">&times;</button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var STORAGE_KEY = 'cmpsoares_rebrand_banner_dismissed_v3';
+    var banner = document.getElementById('rebrand-banner');
+    if (!banner) return;
+
+    try {
+      if (window.localStorage && localStorage.getItem(STORAGE_KEY) === '1') {
+        return;
+      }
+    } catch (e) { /* ignore storage errors */ }
+
+    banner.hidden = false;
+    document.body.classList.add('has-rebrand-banner');
+
+    function setBannerHeightVar() {
+      var h = banner.offsetHeight || 48;
+      document.documentElement.style.setProperty('--rebrand-banner-height', h + 'px');
+    }
+    setBannerHeightVar();
+    window.addEventListener('resize', setBannerHeightVar);
+
+    var closeBtn = banner.querySelector('.rebrand-banner-close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function () {
+        banner.hidden = true;
+        document.body.classList.remove('has-rebrand-banner');
+        document.documentElement.style.removeProperty('--rebrand-banner-height');
+        try {
+          if (window.localStorage) localStorage.setItem(STORAGE_KEY, '1');
+        } catch (e) { /* ignore storage errors */ }
+      });
+    }
+  })();
+</script>
+{{"<!-- /rebrand banner -->" | safeHTML }}
