@@ -68,7 +68,7 @@ jobs:
 
       - name: Deploy preview to Netlify
         if: steps.detect.outputs.publish_dir != ''
-        uses: nwtgck/actions-netlify@v3
+        uses: nwtgck/actions-netlify@v4
         with:
           publish-dir: ${{ steps.detect.outputs.publish_dir }}
           alias: deploy-preview-${{ github.event.pull_request.number }}
