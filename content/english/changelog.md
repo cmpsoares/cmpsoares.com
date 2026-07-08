@@ -16,6 +16,7 @@ Creating the first full version of the website using Hugo and the Agico Template
 * Updating images
 
 * Writing base website content
+{{< /changelog >}}
 
 
 <hr>
@@ -23,22 +24,22 @@ Creating the first full version of the website using Hugo and the Agico Template
 ### Changelog label
 
 {{< changelog "Added" >}}
-{{</ changelog >}}
+{{< /changelog >}}
 
 {{< changelog "Changed" >}}
-{{</ changelog >}}
+{{< /changelog >}}
 
 {{< changelog "Deprecated" >}}
-{{</ changelog >}}
+{{< /changelog >}}
 
 {{< changelog "Removed" >}}
-{{</ changelog >}}
+{{< /changelog >}}
 
 {{< changelog "Fixed" >}}
-{{</ changelog >}}
+{{< /changelog >}}
 
 {{< changelog "Security" >}}
-{{</ changelog >}}
+{{< /changelog >}}
 
 {{< changelog "Unreleased" >}}
-{{</ changelog >}}
+{{< /changelog >}}

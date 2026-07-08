@@ -13,6 +13,8 @@ mobile = "+351 217 960 588"
 whatsapp = "351217960588"
 whatsapp_label = "+351 217 960 588"
 email = "contact@cmpsoares.com"
+# disqus (used by blog comment templates)
+disqusShortname = "cmpsoares-com"
 # contact form action
 contact_form_action = "https://formspree.io/f/mrgrnyzq" # contact form works with https://formspree.io
 # Google Analitycs

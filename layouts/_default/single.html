@@ -27,7 +27,7 @@
         </div>
 
         <!-- comments -->
-        {{ if site.DisqusShortname }}
+        {{ if site.Params.disqusShortname }}
         {{ template "_internal/disqus.html" . }}
         {{ end }}
       </div>

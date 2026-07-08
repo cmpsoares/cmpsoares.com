@@ -48,10 +48,7 @@
 {{ end -}}
 <meta name="twitter:title" content="{{ with .Title }}{{ . }}{{ else }}{{ site.Title }}{{ end }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
-{{ with site.Social.twitter -}}<meta name="twitter:site" content="@{{ . }}"/>{{ end -}}
-{{ range site.Authors }}
-  {{ with .twitter -}}<meta name="twitter:creator" content="@{{ . }}"/>{{ end -}}
-{{ end -}}
+{{ range site.Params.social }}{{ if eq .title "twitter" }}{{ $handle := replaceRE "^https?://(www\\.)?twitter\\.com/" "" .link }}<meta name="twitter:site" content="@{{ $handle }}"/>{{ end }}{{ end }}
 
 <!-- Termly Consent Banner -->
 {{- partial "termly_consent_banner.html" . -}}

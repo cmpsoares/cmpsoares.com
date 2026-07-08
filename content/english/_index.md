@@ -1,7 +1,10 @@
 ---
+title: "TEKSOMA Technology & Consultancy"
+description: "CMPSOARES has rebranded to TEKSOMA Technology & Consultancy. Visit tech.teksoma.com."
+
 ############################### Banner #################################
 banner:
-  enable : true
+  enable : false
   bg_image : "images/background/banner.png"
   title : "Automating Your Business Together"
   watermark : "CMPSOARES"
@@ -14,7 +17,7 @@ banner:
 
 ############################## Partners #################################
 partner:
-  enable: true
+  enable: false
   subtitle: "partners"
   title: "We work with some of the major tech brands"
   partner_logo:
@@ -66,7 +69,7 @@ feature:
 
 ##################################### About #############################
 about:
-  enable : true
+  enable : false
   about_item:
     # about item loop
     - image : "images/about/about-1.png"
@@ -90,7 +93,7 @@ about:
 
 ############################## technology #################################
 technology:
-  enable: true
+  enable: false
   subtitle: "technology"
   title: "We deliver solutions with some of the latest technologies"
   technology_logo:
