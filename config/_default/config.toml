@@ -18,12 +18,9 @@ shortname = "cmpsoares-com"
 disableLanguages = [] # example: ["fr"] for disable french language
 
 ############################# Outputs ##############################
-enableRobotsTXT = true
-
-[sitemap]
-  changefreq = 'weekly'
-  filename = 'sitemap.xml'
-  priority = 0.5
+# Brand sunset: serve static/robots.txt (Disallow: /) and do not generate a sitemap.
+enableRobotsTXT = false
+disableKinds = ["sitemap"]
 
 [author]
   name = 'C.M.P.Soares, Lda.'

@@ -1,5 +1,10 @@
-# cmpsoares.com → tech.teksoma.com insights migration (301)
+# CMPSOARES brand sunset — 301 the old site to TEKSOMA.
+# /robots.txt stays on this host so crawlers see Disallow: / here.
+# Forced (!) so redirects win over published HTML (including form pages).
 
+/robots.txt  /robots.txt  200!
+
+# Legacy blog posts → tech.teksoma.com insights
 /blog/2022-01-25_why-you-should-have-the-habit-to-sign-all-your-git-commits/*  https://tech.teksoma.com/insights/sign-git-commits  301!
 /blog/2022-01-25-why-you-should-have-the-habit-to-sign-all-your-git-commits/*  https://tech.teksoma.com/insights/sign-git-commits  301!
 
@@ -16,3 +21,28 @@
 /blog/2024-11-14_rca-showdown-sre-vs-itil-itsm/*  https://tech.teksoma.com/insights/rca-showdown-sre-vs-itil-itsm  301!
 
 /blog/*  https://tech.teksoma.com/insights  301!
+
+# Semantic page map (must sit above the catch-all)
+/contact  https://tech.teksoma.com/contact  301!
+/contact/  https://tech.teksoma.com/contact  301!
+/about  https://tech.teksoma.com/about  301!
+/about/  https://tech.teksoma.com/about  301!
+/team  https://tech.teksoma.com/about  301!
+/team/  https://tech.teksoma.com/about  301!
+/service  https://tech.teksoma.com/services  301!
+/service/  https://tech.teksoma.com/services  301!
+/pricing  https://tech.teksoma.com/plans  301!
+/pricing/  https://tech.teksoma.com/plans  301!
+/privacy_policy  https://teksoma.com/privacy-policy  301!
+/privacy_policy/  https://teksoma.com/privacy-policy  301!
+/cookie_policy  https://teksoma.com/cookie-policy  301!
+/cookie_policy/  https://teksoma.com/cookie-policy  301!
+/terms  https://teksoma.com/privacy-policy  301!
+/terms/  https://teksoma.com/privacy-policy  301!
+/career  https://tech.teksoma.com/about  301!
+/career/*  https://tech.teksoma.com/about  301!
+/tags/*  https://tech.teksoma.com/insights  301!
+/categories/*  https://tech.teksoma.com/insights  301!
+
+# Everything else, including POST /form-name=contact, goes to the TEKSOMA homepage.
+/*  https://tech.teksoma.com/  301!

@@ -1,0 +1,6 @@
+# Drop cmpsoares.com from the index. follow lets 301s land on TEKSOMA.
+/*
+  X-Robots-Tag: noindex, follow
+
+/robots.txt
+  X-Robots-Tag: noindex

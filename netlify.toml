@@ -8,3 +8,9 @@
   # Skip vendored theme demo content from secrets scanning; those are upstream
   # placeholder keys, not real credentials, and the exampleSite isn't built.
   SECRETS_SCAN_OMIT_PATHS = "themes/agico-hugo/exampleSite/**"
+
+# After this deploy: delete the registered Netlify form named "contact" in
+# Site settings → Forms. Removing the HTML stops detection at build time;
+# a leftover registered form can still accept POSTs until it is deleted.
+# Request-time block is the forced catch-all 301 in static/_redirects.
+
