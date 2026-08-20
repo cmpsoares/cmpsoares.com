@@ -15,8 +15,8 @@ whatsapp_label = "+351 217 960 588"
 email = "contact@cmpsoares.com"
 # disqus (used by blog comment templates)
 disqusShortname = "cmpsoares-com"
-# contact form action
-contact_form_action = "https://formspree.io/f/mrgrnyzq" # contact form works with https://formspree.io
+# contact form action — retired with the CMPSOARES sunset (do not re-enable)
+contact_form_action = ""
 # Google Analitycs
 google_analitycs_id = "UA-216173935-1"
 # main sections
@@ -38,17 +38,16 @@ enable = true
 label = "Contact Us"
 link = "/contact"
 
-# Contact
+# Contact — retired with the CMPSOARES sunset (no Netlify / Formspree forms)
 [contact_form]
-enable = true
-netlify_forms_integration = true
+enable = false
+netlify_forms_integration = false
 
-# Subscription
+# Subscription — retired with the CMPSOARES sunset (no Mailchimp form)
 [subscription]
-enable = true
-# mailchimp subsciption
-mailchimp_form_action = "https://cmpsoares.us4.list-manage.com/subscribe/post?u=a37f9f4e15985d7754bad97ba&amp;id=284d8c24ca" # replace this url with yours
-mailchimp_form_name = "b_a37f9f4e15985d7754bad97ba_284d8c24ca" # replace this code with yours
+enable = false
+mailchimp_form_action = ""
+mailchimp_form_name = ""
 
 # Google Services
 # Google Adsense
@@ -83,7 +82,7 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
 
 [tidio_chatbot]
-enable = true
+enable = false
 id = "7ddfxeybyiti3uffdq8ewy4onogssfzd"
 
 [termly]

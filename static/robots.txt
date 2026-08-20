@@ -1,0 +1,5 @@
+# CMPSOARES is sunset. Do not crawl or index this host.
+# Humans and crawlers that ignore robots.txt are 301'd to tech.teksoma.com.
+
+User-agent: *
+Disallow: /
